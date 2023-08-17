@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2023-08-17T06:50:04.120Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="LTGYQdHi2ALlsXVBEOp2" version="21.6.8" type="github">
+  <diagram name="第 1 页" id="qjcr4zjGkyuD1WgFnIwu">
+    <mxGraphModel dx="880" dy="438" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WDR-KjkpsniXD8TAlGZS-15" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="208" y="224" width="418" height="121.25" as="geometry" />
+        </mxCell>
+        <mxCell id="WDR-KjkpsniXD8TAlGZS-16" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="WDR-KjkpsniXD8TAlGZS-15">
+          <mxGeometry width="418" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WDR-KjkpsniXD8TAlGZS-17" value="命令" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FF99;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="WDR-KjkpsniXD8TAlGZS-16">
+          <mxGeometry width="209" height="30" as="geometry">
+            <mxRectangle width="209" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDR-KjkpsniXD8TAlGZS-18" value="含义" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FF99;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="WDR-KjkpsniXD8TAlGZS-16">
+          <mxGeometry x="209" width="209" height="30" as="geometry">
+            <mxRectangle width="209" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDR-KjkpsniXD8TAlGZS-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="WDR-KjkpsniXD8TAlGZS-15">
+          <mxGeometry y="30" width="418" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WDR-KjkpsniXD8TAlGZS-21" value="回车" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="WDR-KjkpsniXD8TAlGZS-20">
+          <mxGeometry width="209" height="30" as="geometry">
+            <mxRectangle width="209" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDR-KjkpsniXD8TAlGZS-22" value="显示下一行" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="WDR-KjkpsniXD8TAlGZS-20">
+          <mxGeometry x="209" width="209" height="30" as="geometry">
+            <mxRectangle width="209" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDR-KjkpsniXD8TAlGZS-28" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="WDR-KjkpsniXD8TAlGZS-15">
+          <mxGeometry y="60" width="418" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="WDR-KjkpsniXD8TAlGZS-29" value="空格" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="WDR-KjkpsniXD8TAlGZS-28">
+          <mxGeometry width="209" height="31" as="geometry">
+            <mxRectangle width="209" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDR-KjkpsniXD8TAlGZS-30" value="显示下一页" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="WDR-KjkpsniXD8TAlGZS-28">
+          <mxGeometry x="209" width="209" height="31" as="geometry">
+            <mxRectangle width="209" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDR-KjkpsniXD8TAlGZS-24" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="WDR-KjkpsniXD8TAlGZS-15">
+          <mxGeometry y="91" width="418" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WDR-KjkpsniXD8TAlGZS-25" value="q" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="WDR-KjkpsniXD8TAlGZS-24">
+          <mxGeometry width="209" height="30" as="geometry">
+            <mxRectangle width="209" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDR-KjkpsniXD8TAlGZS-26" value="退出" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="WDR-KjkpsniXD8TAlGZS-24">
+          <mxGeometry x="209" width="209" height="30" as="geometry">
+            <mxRectangle width="209" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
