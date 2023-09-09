@@ -1,9 +1,180 @@
-<mxfile host="app.diagrams.net" modified="2023-09-09T06:55:03.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.4" etag="ufuMVXNkoDDaD1U70eYc" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-09T12:41:36.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="RC03_G-3lisO063cmyjN" version="21.7.4" type="github">
   <diagram name="第 1 页" id="OqLH5jnzMYRa5EPPd8a0">
-    <mxGraphModel>
+    <mxGraphModel dx="886" dy="467" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rvzYgywErIuplo4kGTuj-2" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="152" y="152" width="793" height="268.62353874655344" as="geometry" />
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rvzYgywErIuplo4kGTuj-2">
+          <mxGeometry width="793" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-4" value="类型" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FFCC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="rvzYgywErIuplo4kGTuj-3">
+          <mxGeometry width="107" height="35" as="geometry">
+            <mxRectangle width="107" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-5" value="大小" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FFCC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="rvzYgywErIuplo4kGTuj-3">
+          <mxGeometry x="107" width="65" height="35" as="geometry">
+            <mxRectangle width="65" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-6" value="范围" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FFCC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="rvzYgywErIuplo4kGTuj-3">
+          <mxGeometry x="172" width="254" height="35" as="geometry">
+            <mxRectangle width="254" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-18" value="格式" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FFCC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="rvzYgywErIuplo4kGTuj-3">
+          <mxGeometry x="426" width="168" height="35" as="geometry">
+            <mxRectangle width="168" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-15" value="描述" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FFCC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="rvzYgywErIuplo4kGTuj-3">
+          <mxGeometry x="594" width="199" height="35" as="geometry">
+            <mxRectangle width="199" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-7" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rvzYgywErIuplo4kGTuj-2">
+          <mxGeometry y="35" width="793" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-8" value="DATE" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-7">
+          <mxGeometry width="107" height="46" as="geometry">
+            <mxRectangle width="107" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-9" value="3" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-7">
+          <mxGeometry x="107" width="65" height="46" as="geometry">
+            <mxRectangle width="65" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-10" value="1000-01-01 至 9999-12-31" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-7">
+          <mxGeometry x="172" width="254" height="46" as="geometry">
+            <mxRectangle width="254" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-19" value="YYYY-MM-DD" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-7">
+          <mxGeometry x="426" width="168" height="46" as="geometry">
+            <mxRectangle width="168" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-16" value="日期值" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-7">
+          <mxGeometry x="594" width="199" height="46" as="geometry">
+            <mxRectangle width="199" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-11" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rvzYgywErIuplo4kGTuj-2">
+          <mxGeometry y="81" width="793" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-12" value="TIME" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-11">
+          <mxGeometry width="107" height="47" as="geometry">
+            <mxRectangle width="107" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-13" value="3" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-11">
+          <mxGeometry x="107" width="65" height="47" as="geometry">
+            <mxRectangle width="65" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-14" value="-838:59:59 至 838:59:59" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-11">
+          <mxGeometry x="172" width="254" height="47" as="geometry">
+            <mxRectangle width="254" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-20" value="HH:MM:SS" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-11">
+          <mxGeometry x="426" width="168" height="47" as="geometry">
+            <mxRectangle width="168" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-17" value="时间值或持续时间" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-11">
+          <mxGeometry x="594" width="199" height="47" as="geometry">
+            <mxRectangle width="199" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-21" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rvzYgywErIuplo4kGTuj-2">
+          <mxGeometry y="128" width="793" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-22" value="YEAR" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-21">
+          <mxGeometry width="107" height="47" as="geometry">
+            <mxRectangle width="107" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-23" value="1" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-21">
+          <mxGeometry x="107" width="65" height="47" as="geometry">
+            <mxRectangle width="65" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-24" value="1901 至 2155" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-21">
+          <mxGeometry x="172" width="254" height="47" as="geometry">
+            <mxRectangle width="254" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-25" value="YYYY" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-21">
+          <mxGeometry x="426" width="168" height="47" as="geometry">
+            <mxRectangle width="168" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-26" value="年份值" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-21">
+          <mxGeometry x="594" width="199" height="47" as="geometry">
+            <mxRectangle width="199" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rvzYgywErIuplo4kGTuj-2">
+          <mxGeometry y="175" width="793" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-28" value="DATETIME" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-27">
+          <mxGeometry width="107" height="47" as="geometry">
+            <mxRectangle width="107" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-29" value="8" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-27">
+          <mxGeometry x="107" width="65" height="47" as="geometry">
+            <mxRectangle width="65" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-30" value="1000-01-01 00:00:00 至 9999-12-31 23:59:59" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-27">
+          <mxGeometry x="172" width="254" height="47" as="geometry">
+            <mxRectangle width="254" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-31" value="YYYY-MM-DD HH:MM:SS" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-27">
+          <mxGeometry x="426" width="168" height="47" as="geometry">
+            <mxRectangle width="168" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-32" value="混合日期和时间值" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-27">
+          <mxGeometry x="594" width="199" height="47" as="geometry">
+            <mxRectangle width="199" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-33" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rvzYgywErIuplo4kGTuj-2">
+          <mxGeometry y="222" width="793" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-34" value="TIMESTAMP" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-33">
+          <mxGeometry width="107" height="47" as="geometry">
+            <mxRectangle width="107" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-35" value="4" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-33">
+          <mxGeometry x="107" width="65" height="47" as="geometry">
+            <mxRectangle width="65" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-36" value="1970-01-01 00:00:01 至 2038-01-19 03:14:07" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-33">
+          <mxGeometry x="172" width="254" height="47" as="geometry">
+            <mxRectangle width="254" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-37" value="YYYY-MM-DD HH:MM:SS" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-33">
+          <mxGeometry x="426" width="168" height="47" as="geometry">
+            <mxRectangle width="168" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvzYgywErIuplo4kGTuj-38" value="混合日期和时间值，时间戳" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rvzYgywErIuplo4kGTuj-33">
+          <mxGeometry x="594" width="199" height="47" as="geometry">
+            <mxRectangle width="199" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
