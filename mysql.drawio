@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T08:08:33.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="id76OtIEGMuYkAiyBjVB" version="21.7.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-11T08:25:12.678Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="nHptwXQyCLPx0KrENqoQ" version="21.7.4" type="github" pages="4">
   <diagram name="逻辑运算符" id="ewOLM0McmfPBh60qDEbp">
     <mxGraphModel dx="511" dy="387" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -209,6 +209,121 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="182" y="213" as="sourcePoint" />
             <mxPoint x="259" y="246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="shybwIFjkk_fHgKesnyl" name="常见字符串函数">
+    <mxGraphModel dx="743" dy="393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="138" width="519.8101196289062" height="363" as="geometry" />
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-1">
+          <mxGeometry width="519.8101196289062" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-3" value="函数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#9999FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-2">
+          <mxGeometry width="144" height="35" as="geometry">
+            <mxRectangle width="144" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-4" value="功能" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#9999FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-2">
+          <mxGeometry x="144" width="376" height="35" as="geometry">
+            <mxRectangle width="376" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-1">
+          <mxGeometry y="35" width="519.8101196289062" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-7" value="CONCAT(S1,S2,...Sn)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-6">
+          <mxGeometry width="144" height="46" as="geometry">
+            <mxRectangle width="144" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-8" value="字符串拼接，将S1，S2，… Sn拼接成一个字符串" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-6">
+          <mxGeometry x="144" width="376" height="46" as="geometry">
+            <mxRectangle width="376" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-1">
+          <mxGeometry y="81" width="519.8101196289062" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-11" value="LOWER(str)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-10">
+          <mxGeometry width="144" height="47" as="geometry">
+            <mxRectangle width="144" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-12" value="将字符串str全部转为小写" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-10">
+          <mxGeometry x="144" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-1">
+          <mxGeometry y="128" width="519.8101196289062" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-15" value="UPPER(str)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-14">
+          <mxGeometry width="144" height="47" as="geometry">
+            <mxRectangle width="144" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-16" value="将字符串str全部转为大写" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-14">
+          <mxGeometry x="144" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-1">
+          <mxGeometry y="175" width="519.8101196289062" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-21" value="RPAD(str,n,pad)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-20">
+          <mxGeometry width="144" height="47" as="geometry">
+            <mxRectangle width="144" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-22" value="右填充，用字符串pad对str的右边进行填充，达到n个字符 串长度" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-20">
+          <mxGeometry x="144" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-1">
+          <mxGeometry y="222" width="519.8101196289062" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-18" value="LPAD(str,n,pad)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-17">
+          <mxGeometry width="144" height="47" as="geometry">
+            <mxRectangle width="144" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-19" value="左填充，用字符串pad对str的左边进行填充，达到n个字符 串长度" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-17">
+          <mxGeometry x="144" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-1">
+          <mxGeometry y="269" width="519.8101196289062" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-24" value="TRIM(str)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-23">
+          <mxGeometry width="144" height="47" as="geometry">
+            <mxRectangle width="144" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-25" value="去掉字符串头部和尾部的空格" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-23">
+          <mxGeometry x="144" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-26" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-1">
+          <mxGeometry y="316" width="519.8101196289062" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-27" value="SUBSTRING(str,start,len)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-26">
+          <mxGeometry width="144" height="47" as="geometry">
+            <mxRectangle width="144" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uXD-AHopu5pUJSeDPUAk-28" value="返回从字符串str从start位置起的len个长度的字符串" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="uXD-AHopu5pUJSeDPUAk-26">
+          <mxGeometry x="144" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
