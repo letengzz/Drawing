@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T08:25:12.678Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="nHptwXQyCLPx0KrENqoQ" version="21.7.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-11T08:31:46.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5Tu5s08FTggftg5jiR1e" version="21.7.4" type="github" pages="7">
   <diagram name="逻辑运算符" id="ewOLM0McmfPBh60qDEbp">
     <mxGraphModel dx="511" dy="387" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -326,6 +326,111 @@
             <mxRectangle width="376" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Lq_0Shf4AeO79gO82mzl" name="常见数值函数">
+    <mxGraphModel dx="511" dy="387" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="83" y="56" width="348" height="269" as="geometry" />
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-1">
+          <mxGeometry width="348" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-3" value="函数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FFFF99;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-2">
+          <mxGeometry width="113" height="35" as="geometry">
+            <mxRectangle width="113" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-4" value="功能" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FFFF99;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-2">
+          <mxGeometry x="113" width="235" height="35" as="geometry">
+            <mxRectangle width="235" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-1">
+          <mxGeometry y="35" width="348" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-7" value="CEIL(x)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-6">
+          <mxGeometry width="113" height="46" as="geometry">
+            <mxRectangle width="113" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-8" value="向上取整" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-6">
+          <mxGeometry x="113" width="235" height="46" as="geometry">
+            <mxRectangle width="235" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-1">
+          <mxGeometry y="81" width="348" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-11" value="FLOOR(x)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-10">
+          <mxGeometry width="113" height="47" as="geometry">
+            <mxRectangle width="113" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-12" value="向下取整" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-10">
+          <mxGeometry x="113" width="235" height="47" as="geometry">
+            <mxRectangle width="235" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-1">
+          <mxGeometry y="128" width="348" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-15" value="MOD(x,y)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-14">
+          <mxGeometry width="113" height="47" as="geometry">
+            <mxRectangle width="113" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-16" value="返回x/y的模" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-14">
+          <mxGeometry x="113" width="235" height="47" as="geometry">
+            <mxRectangle width="235" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-1">
+          <mxGeometry y="175" width="348" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-18" value="RAND()" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-17">
+          <mxGeometry width="113" height="47" as="geometry">
+            <mxRectangle width="113" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-19" value="返回0~1内的随机数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-17">
+          <mxGeometry x="113" width="235" height="47" as="geometry">
+            <mxRectangle width="235" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-1">
+          <mxGeometry y="222" width="348" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-21" value="ROUND(x,y)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-20">
+          <mxGeometry width="113" height="47" as="geometry">
+            <mxRectangle width="113" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ssnIFYqjYVwUdE8Tb8jK-22" value="求参数x的四舍五入的值，保留y位小数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="ssnIFYqjYVwUdE8Tb8jK-20">
+          <mxGeometry x="113" width="235" height="47" as="geometry">
+            <mxRectangle width="235" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IniDSJtUzRsiRkD1yl-c" name="常见日期函数">
+    <mxGraphModel dx="743" dy="393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nTDaVI7HuhtiM4hF62NX" name="流程函数">
+    <mxGraphModel dx="743" dy="393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
