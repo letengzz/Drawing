@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T08:31:46.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5Tu5s08FTggftg5jiR1e" version="21.7.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-09-11T08:36:55.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="3lkT6UjGvyj1orZi_8JQ" version="21.7.4" type="github" pages="7">
   <diagram name="逻辑运算符" id="ewOLM0McmfPBh60qDEbp">
     <mxGraphModel dx="511" dy="387" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -419,10 +419,130 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IniDSJtUzRsiRkD1yl-c" name="常见日期函数">
-    <mxGraphModel dx="743" dy="393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="874" dy="462" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="212" y="71" width="571.8799438476562" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-1">
+          <mxGeometry width="571.8799438476562" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-3" value="函数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FF99;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-2">
+          <mxGeometry width="245" height="35" as="geometry">
+            <mxRectangle width="245" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-4" value="功能" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FF99;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-2">
+          <mxGeometry x="245" width="327" height="35" as="geometry">
+            <mxRectangle width="327" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-1">
+          <mxGeometry y="35" width="571.8799438476562" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-7" value="CURDATE()" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-6">
+          <mxGeometry width="245" height="46" as="geometry">
+            <mxRectangle width="245" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-8" value="返回当前日期" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-6">
+          <mxGeometry x="245" width="327" height="46" as="geometry">
+            <mxRectangle width="327" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-1">
+          <mxGeometry y="81" width="571.8799438476562" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-11" value="CURTIME()" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-10">
+          <mxGeometry width="245" height="47" as="geometry">
+            <mxRectangle width="245" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-12" value="返回当前时间" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-10">
+          <mxGeometry x="245" width="327" height="47" as="geometry">
+            <mxRectangle width="327" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-1">
+          <mxGeometry y="128" width="571.8799438476562" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-15" value="NOW()" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-14">
+          <mxGeometry width="245" height="47" as="geometry">
+            <mxRectangle width="245" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-16" value="返回当前日期和时间" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-14">
+          <mxGeometry x="245" width="327" height="47" as="geometry">
+            <mxRectangle width="327" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-1">
+          <mxGeometry y="175" width="571.8799438476562" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-18" value="YEAR(date)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-17">
+          <mxGeometry width="245" height="47" as="geometry">
+            <mxRectangle width="245" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-19" value="获取指定date的年份" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-17">
+          <mxGeometry x="245" width="327" height="47" as="geometry">
+            <mxRectangle width="327" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-1">
+          <mxGeometry y="222" width="571.8799438476562" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-21" value="MONTH(date)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-20">
+          <mxGeometry width="245" height="47" as="geometry">
+            <mxRectangle width="245" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-22" value="获取指定date的月份" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-20">
+          <mxGeometry x="245" width="327" height="47" as="geometry">
+            <mxRectangle width="327" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-1">
+          <mxGeometry y="269" width="571.8799438476562" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-24" value="DAY(date)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-23">
+          <mxGeometry width="245" height="47" as="geometry">
+            <mxRectangle width="245" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-25" value="获取指定date的日期" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-23">
+          <mxGeometry x="245" width="327" height="47" as="geometry">
+            <mxRectangle width="327" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-26" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-1">
+          <mxGeometry y="316" width="571.8799438476562" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-27" value="DATE_ADD(date, INTERVAL expr type)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-26">
+          <mxGeometry width="245" height="47" as="geometry">
+            <mxRectangle width="245" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-28" value="返回一个日期/时间值加上一个时间间隔expr后的时间值" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-26">
+          <mxGeometry x="245" width="327" height="47" as="geometry">
+            <mxRectangle width="327" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-29" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-1">
+          <mxGeometry y="363" width="571.8799438476562" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-30" value="DATEDIFF(date1,date2)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-29">
+          <mxGeometry width="245" height="47" as="geometry">
+            <mxRectangle width="245" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXt5MzPIaW0wpQR1jYup-31" value="返回起始时间date1 和 结束时间date2之间的天数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SXt5MzPIaW0wpQR1jYup-29">
+          <mxGeometry x="245" width="327" height="47" as="geometry">
+            <mxRectangle width="327" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
