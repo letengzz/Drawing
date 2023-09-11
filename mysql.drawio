@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T09:41:57.420Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8DgBOim2Cjqbu0IPJJoZ" version="21.7.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-09-11T15:47:53.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="an7agKmKT2JJGd1EOA2z" version="21.7.4" type="github" pages="8">
   <diagram name="逻辑运算符" id="ewOLM0McmfPBh60qDEbp">
     <mxGraphModel dx="511" dy="387" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -622,11 +622,140 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="RUzaeLZhOUkrQdn4tz-f" name="第 8 页">
+  <diagram id="RUzaeLZhOUkrQdn4tz-f" name="约束">
     <mxGraphModel dx="723" dy="387" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="331" y="117" width="662.02978515625" height="316" as="geometry" />
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-1">
+          <mxGeometry width="662.02978515625" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-3" value="约束" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#9999FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-2">
+          <mxGeometry width="131" height="35" as="geometry">
+            <mxRectangle width="131" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-4" value="描述" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#9999FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-2">
+          <mxGeometry x="131" width="384" height="35" as="geometry">
+            <mxRectangle width="384" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-26" value="关键字" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#9999FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-2">
+          <mxGeometry x="515" width="147" height="35" as="geometry">
+            <mxRectangle width="147" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-1">
+          <mxGeometry y="35" width="662.02978515625" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-7" value="非空约束" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-6">
+          <mxGeometry width="131" height="46" as="geometry">
+            <mxRectangle width="131" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-8" value="限制该字段的数据不能为null" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-6">
+          <mxGeometry x="131" width="384" height="46" as="geometry">
+            <mxRectangle width="384" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-27" value="NOT NULL" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-6">
+          <mxGeometry x="515" width="147" height="46" as="geometry">
+            <mxRectangle width="147" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-1">
+          <mxGeometry y="81" width="662.02978515625" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-11" value="唯一约束" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-10">
+          <mxGeometry width="131" height="47" as="geometry">
+            <mxRectangle width="131" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-12" value="保证该字段的所有数据都是唯一、不重复的、可以为空" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-10">
+          <mxGeometry x="131" width="384" height="47" as="geometry">
+            <mxRectangle width="384" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-28" value="UNIQUE" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-10">
+          <mxGeometry x="515" width="147" height="47" as="geometry">
+            <mxRectangle width="147" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-1">
+          <mxGeometry y="128" width="662.02978515625" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-15" value="主键约束" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-14">
+          <mxGeometry width="131" height="47" as="geometry">
+            <mxRectangle width="131" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-16" value="主键是一行数据的唯一标识，要求非空且唯一" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-14">
+          <mxGeometry x="131" width="384" height="47" as="geometry">
+            <mxRectangle width="384" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-29" value="PRIMARY KEY" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-14">
+          <mxGeometry x="515" width="147" height="47" as="geometry">
+            <mxRectangle width="147" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-1">
+          <mxGeometry y="175" width="662.02978515625" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-18" value="默认约束" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-17">
+          <mxGeometry width="131" height="47" as="geometry">
+            <mxRectangle width="131" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-19" value="保存数据时，如果未指定该字段的值，则采用默认值" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-17">
+          <mxGeometry x="131" width="384" height="47" as="geometry">
+            <mxRectangle width="384" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-30" value="DEFAULT" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-17">
+          <mxGeometry x="515" width="147" height="47" as="geometry">
+            <mxRectangle width="147" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-1">
+          <mxGeometry y="222" width="662.02978515625" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-21" value="检查约束" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-20">
+          <mxGeometry width="131" height="47" as="geometry">
+            <mxRectangle width="131" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-22" value="插入数值时根据指定条件校验合法性(8.0.16版本之后开始)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-20">
+          <mxGeometry x="131" width="384" height="47" as="geometry">
+            <mxRectangle width="384" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-31" value="CHECK" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-20">
+          <mxGeometry x="515" width="147" height="47" as="geometry">
+            <mxRectangle width="147" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-1">
+          <mxGeometry y="269" width="662.02978515625" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-24" value="外检约束" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-23">
+          <mxGeometry width="131" height="47" as="geometry">
+            <mxRectangle width="131" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-25" value="用来让两张表的数据之间建立连接，保证数据的一致性和完整性" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-23">
+          <mxGeometry x="131" width="384" height="47" as="geometry">
+            <mxRectangle width="384" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBz5VuwyQfCcPxoC-5Q1-32" value="FOREIGN KEY" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="VBz5VuwyQfCcPxoC-5Q1-23">
+          <mxGeometry x="515" width="147" height="47" as="geometry">
+            <mxRectangle width="147" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
