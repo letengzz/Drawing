@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T08:36:55.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="3lkT6UjGvyj1orZi_8JQ" version="21.7.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-09-11T09:41:52.699Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="T5LfMZQE1Z2PKqrBeQOm" version="21.7.4" type="github" pages="8">
   <diagram name="逻辑运算符" id="ewOLM0McmfPBh60qDEbp">
     <mxGraphModel dx="511" dy="387" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -547,7 +547,83 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nTDaVI7HuhtiM4hF62NX" name="流程函数">
-    <mxGraphModel dx="743" dy="393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="723" dy="387" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7aDyFeXtJ-Z812SFncce-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="102" y="168" width="701.0400695800781" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="7aDyFeXtJ-Z812SFncce-1">
+          <mxGeometry width="701.0400695800781" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-3" value="函数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FFCCFF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="7aDyFeXtJ-Z812SFncce-2">
+          <mxGeometry width="364" height="35" as="geometry">
+            <mxRectangle width="364" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-4" value="功能" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FFCCFF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="7aDyFeXtJ-Z812SFncce-2">
+          <mxGeometry x="364" width="337" height="35" as="geometry">
+            <mxRectangle width="337" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="7aDyFeXtJ-Z812SFncce-1">
+          <mxGeometry y="35" width="701.0400695800781" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-7" value="IF(value , t , f)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="7aDyFeXtJ-Z812SFncce-6">
+          <mxGeometry width="364" height="46" as="geometry">
+            <mxRectangle width="364" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-8" value="如果value为true，则返回t，否则返回 f" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="7aDyFeXtJ-Z812SFncce-6">
+          <mxGeometry x="364" width="337" height="46" as="geometry">
+            <mxRectangle width="337" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="7aDyFeXtJ-Z812SFncce-1">
+          <mxGeometry y="81" width="701.0400695800781" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-11" value="IFNULL(value1 , value2)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="7aDyFeXtJ-Z812SFncce-10">
+          <mxGeometry width="364" height="47" as="geometry">
+            <mxRectangle width="364" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-12" value="如果value1不为空，返回value1，否则 返回value2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="7aDyFeXtJ-Z812SFncce-10">
+          <mxGeometry x="364" width="337" height="47" as="geometry">
+            <mxRectangle width="337" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="7aDyFeXtJ-Z812SFncce-1">
+          <mxGeometry y="128" width="701.0400695800781" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-15" value="CASE WHEN [ val1 ] THEN [res1] … ELSE [ default ] END" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="7aDyFeXtJ-Z812SFncce-14">
+          <mxGeometry width="364" height="47" as="geometry">
+            <mxRectangle width="364" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-16" value="如果val1为true，返回res1，… 否 则返回default默认值" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="7aDyFeXtJ-Z812SFncce-14">
+          <mxGeometry x="364" width="337" height="47" as="geometry">
+            <mxRectangle width="337" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="7aDyFeXtJ-Z812SFncce-1">
+          <mxGeometry y="175" width="701.0400695800781" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-18" value="CASE [ expr ] WHEN [ val1 ] THEN [res1] … ELSE [ default ] END" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="7aDyFeXtJ-Z812SFncce-17">
+          <mxGeometry width="364" height="47" as="geometry">
+            <mxRectangle width="364" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7aDyFeXtJ-Z812SFncce-19" value="如果expr的值等于val1，返回 res1，… 否则返回default默认值" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="7aDyFeXtJ-Z812SFncce-17">
+          <mxGeometry x="364" width="337" height="47" as="geometry">
+            <mxRectangle width="337" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RUzaeLZhOUkrQdn4tz-f" name="第 8 页">
+    <mxGraphModel dx="723" dy="387" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
