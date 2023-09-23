@@ -1,9 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T06:01:15.301Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="EtaSXzU2m62-YjGd4yyy" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-23T06:09:27.883Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="hkYEy37paiFgImbRwSvk" version="21.7.5" type="github">
   <diagram name="第 1 页" id="8cU1o1lWuMe0GgKudyYO">
     <mxGraphModel dx="743" dy="393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="94" width="562" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-1">
+          <mxGeometry width="562" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-3" value="属性" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-2">
+          <mxGeometry width="112" height="35" as="geometry">
+            <mxRectangle width="112" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-4" value="描述" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-2">
+          <mxGeometry x="112" width="450" height="35" as="geometry">
+            <mxRectangle width="450" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-1">
+          <mxGeometry y="35" width="562" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-11" value="prefix" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-10">
+          <mxGeometry width="112" height="57" as="geometry">
+            <mxRectangle width="112" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-12" value="给SQL语句拼接前缀，为trim 包含的内容加上前缀" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-10">
+          <mxGeometry x="112" width="450" height="57" as="geometry">
+            <mxRectangle width="450" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-1">
+          <mxGeometry y="92" width="562" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-7" value="suffix" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-6">
+          <mxGeometry width="112" height="55" as="geometry">
+            <mxRectangle width="112" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-8" value="给SQL语句拼接后缀，为trim 包含的内容加上后缀" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-6">
+          <mxGeometry x="112" width="450" height="55" as="geometry">
+            <mxRectangle width="450" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-1">
+          <mxGeometry y="147" width="562" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-21" value="prefixOverrides" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-20">
+          <mxGeometry width="112" height="55" as="geometry">
+            <mxRectangle width="112" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-22" value="去除SQL语句前面的关键字或字符，该关键字或者字符由prefixOverrides属性指定。使用“|”分隔有可能的多个值" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-20">
+          <mxGeometry x="112" width="450" height="55" as="geometry">
+            <mxRectangle width="450" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-1">
+          <mxGeometry y="202" width="562" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-24" value="suffixOverrides" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-23">
+          <mxGeometry width="112" height="55" as="geometry">
+            <mxRectangle width="112" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8uMtiOe3ULMGi9ouoPBf-25" value="去除SQL语句后面的关键字或字符，该关键字或者字符由suffixOverrides属性指定。使用“|”分隔有可能的多个值" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-23">
+          <mxGeometry x="112" width="450" height="55" as="geometry">
+            <mxRectangle width="450" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
