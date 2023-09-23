@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T06:43:19.271Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="T3tlT2nnDrdUwq5OSdfP" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-23T07:08:57.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="qartTa6VVZj7yMy4RoMV" version="21.7.5" type="github" pages="2">
   <diagram name="动态 trim" id="8cU1o1lWuMe0GgKudyYO">
     <mxGraphModel dx="619" dy="328" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -70,6 +70,293 @@
         <mxCell id="8uMtiOe3ULMGi9ouoPBf-25" value="去除SQL语句后面的关键字或字符，该关键字或者字符由suffixOverrides属性指定。使用“|”分隔有可能的多个值" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="8uMtiOe3ULMGi9ouoPBf-23">
           <mxGeometry x="112" width="450" height="55" as="geometry">
             <mxRectangle width="450" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VzuCEhvVsnxO67tGPxzG" name="第 2 页">
+    <mxGraphModel dx="709" dy="551" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fMankPSyvv5HRuAFVGbP-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="190" y="51" width="963" height="663" as="geometry" />
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-1">
+          <mxGeometry width="963" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-3" value="设置参数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99CCFF;align=center;whiteSpace=wrap;html=1;fontSize=7;fontStyle=1" vertex="1" parent="fMankPSyvv5HRuAFVGbP-2">
+          <mxGeometry width="180" height="36" as="geometry">
+            <mxRectangle width="180" height="36" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-4" value="描述" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99CCFF;align=center;whiteSpace=wrap;html=1;fontSize=7;fontStyle=1" vertex="1" parent="fMankPSyvv5HRuAFVGbP-2">
+          <mxGeometry x="180" width="461" height="36" as="geometry">
+            <mxRectangle width="461" height="36" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-5" value="有效值" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99CCFF;align=center;whiteSpace=wrap;html=1;fontSize=7;fontStyle=1" vertex="1" parent="fMankPSyvv5HRuAFVGbP-2">
+          <mxGeometry x="641" width="157" height="36" as="geometry">
+            <mxRectangle width="157" height="36" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-14" value="默认值" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99CCFF;align=center;whiteSpace=wrap;html=1;fontSize=7;fontStyle=1" vertex="1" parent="fMankPSyvv5HRuAFVGbP-2">
+          <mxGeometry x="798" width="165" height="36" as="geometry">
+            <mxRectangle width="165" height="36" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-1">
+          <mxGeometry y="36" width="963" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-28" value="cacheEnabled" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-27">
+          <mxGeometry width="180" height="57" as="geometry">
+            <mxRectangle width="180" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-29" value="使全局的映射器启动或禁用缓存" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-27">
+          <mxGeometry x="180" width="461" height="57" as="geometry">
+            <mxRectangle width="461" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-30" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;true | false&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-27">
+          <mxGeometry x="641" width="157" height="57" as="geometry">
+            <mxRectangle width="157" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-31" value="true" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-27">
+          <mxGeometry x="798" width="165" height="57" as="geometry">
+            <mxRectangle width="165" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-1">
+          <mxGeometry y="93" width="963" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-7" value="lazyLoadingEnabled" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-6">
+          <mxGeometry width="180" height="55" as="geometry">
+            <mxRectangle width="180" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-8" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;全局启用或禁用延迟加载。当禁用时，所有关联对象都会即时加载。&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-6">
+          <mxGeometry x="180" width="461" height="55" as="geometry">
+            <mxRectangle width="461" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-9" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;true | false&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-6">
+          <mxGeometry x="641" width="157" height="55" as="geometry">
+            <mxRectangle width="157" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-15" value="true" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-6">
+          <mxGeometry x="798" width="165" height="55" as="geometry">
+            <mxRectangle width="165" height="55" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-1">
+          <mxGeometry y="148" width="963" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-11" value="aggressiveLazyLoading" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-10">
+          <mxGeometry width="180" height="58" as="geometry">
+            <mxRectangle width="180" height="58" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 7px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;当启用时，有延迟加载属性的对象在被调用时将会完全加载任意属性。否则，每种属性将会按需要加载。&lt;/span&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-10">
+          <mxGeometry x="180" width="461" height="58" as="geometry">
+            <mxRectangle width="461" height="58" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-13" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;true | false&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-10">
+          <mxGeometry x="641" width="157" height="58" as="geometry">
+            <mxRectangle width="157" height="58" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-16" value="true" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-10">
+          <mxGeometry x="798" width="165" height="58" as="geometry">
+            <mxRectangle width="165" height="58" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-1">
+          <mxGeometry y="206" width="963" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-18" value="multipleResultSetsEnabled" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-17">
+          <mxGeometry width="180" height="57" as="geometry">
+            <mxRectangle width="180" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-19" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;允许或不允许多种结果集从一个单独的语句中返回（需要适合的驱动）&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-17">
+          <mxGeometry x="180" width="461" height="57" as="geometry">
+            <mxRectangle width="461" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-20" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;true | false&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-17">
+          <mxGeometry x="641" width="157" height="57" as="geometry">
+            <mxRectangle width="157" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-21" value="true" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-17">
+          <mxGeometry x="798" width="165" height="57" as="geometry">
+            <mxRectangle width="165" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-22" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-1">
+          <mxGeometry y="263" width="963" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-23" value="useColumnLabel" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-22">
+          <mxGeometry width="180" height="57" as="geometry">
+            <mxRectangle width="180" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-24" value="使用列标签代替列名。不同的驱动在这方便表现不同。参考驱动文档或充分测试两种方法来决定所使用的驱动。" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-22">
+          <mxGeometry x="180" width="461" height="57" as="geometry">
+            <mxRectangle width="461" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-25" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;true | false&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-22">
+          <mxGeometry x="641" width="157" height="57" as="geometry">
+            <mxRectangle width="157" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-26" value="true" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-22">
+          <mxGeometry x="798" width="165" height="57" as="geometry">
+            <mxRectangle width="165" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-32" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-1">
+          <mxGeometry y="320" width="963" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-33" value="useGeneratedKeys" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-32">
+          <mxGeometry width="180" height="57" as="geometry">
+            <mxRectangle width="180" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-34" value="允许 JDBC 支持生成的键。需要适合的驱动。如果设置为 true 则这个设置强制生成的键被使用，尽管一些驱动拒绝兼容但仍然有效（比如 Derby）。" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-32">
+          <mxGeometry x="180" width="461" height="57" as="geometry">
+            <mxRectangle width="461" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-35" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;true | false&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-32">
+          <mxGeometry x="641" width="157" height="57" as="geometry">
+            <mxRectangle width="157" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-36" value="false" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-32">
+          <mxGeometry x="798" width="165" height="57" as="geometry">
+            <mxRectangle width="165" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-37" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-1">
+          <mxGeometry y="377" width="963" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-38" value="autoMappingBehavior" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-37">
+          <mxGeometry width="180" height="57" as="geometry">
+            <mxRectangle width="180" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-39" value="指定 MyBatis 如何自动映射列到字段/属性。PARTIAL 只会自动映射简单，没有嵌套的结果。FULL 会自动映射任意复杂的结果（嵌套的或其他情况）。" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-37">
+          <mxGeometry x="180" width="461" height="57" as="geometry">
+            <mxRectangle width="461" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-40" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;NONE, PARTIAL, FULL&amp;nbsp;&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-37">
+          <mxGeometry x="641" width="157" height="57" as="geometry">
+            <mxRectangle width="157" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-41" value="PARTIAL" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-37">
+          <mxGeometry x="798" width="165" height="57" as="geometry">
+            <mxRectangle width="165" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-42" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-1">
+          <mxGeometry y="434" width="963" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-43" value="defaultExecutorType" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-42">
+          <mxGeometry width="180" height="58" as="geometry">
+            <mxRectangle width="180" height="58" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-44" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;配置默认的执行器。SIMPLE 执行器没有什么特别之处。REUSE 执行器重用预处理语句。BATCH 执行器重用语句和批量更新&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-42">
+          <mxGeometry x="180" width="461" height="58" as="geometry">
+            <mxRectangle width="461" height="58" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-45" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;SIMPLE, REUSE, BATCH&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-42">
+          <mxGeometry x="641" width="157" height="58" as="geometry">
+            <mxRectangle width="157" height="58" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-46" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;SIMPLE&lt;/font&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-42">
+          <mxGeometry x="798" width="165" height="58" as="geometry">
+            <mxRectangle width="165" height="58" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-47" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-1">
+          <mxGeometry y="492" width="963" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-48" value="defaultStatementTimeout" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-47">
+          <mxGeometry width="180" height="57" as="geometry">
+            <mxRectangle width="180" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-49" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;设置超时时间，它决定驱动等待一个数据库响应的时间。&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-47">
+          <mxGeometry x="180" width="461" height="57" as="geometry">
+            <mxRectangle width="461" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-50" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;Any positive integer&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-47">
+          <mxGeometry x="641" width="157" height="57" as="geometry">
+            <mxRectangle width="157" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-51" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;Not Set (null)&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-47">
+          <mxGeometry x="798" width="165" height="57" as="geometry">
+            <mxRectangle width="165" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-52" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-1">
+          <mxGeometry y="549" width="963" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-53" value="mapUnderscoreToCamelCase" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-52">
+          <mxGeometry width="180" height="57" as="geometry">
+            <mxRectangle width="180" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-54" value="&lt;p style=&quot;line-height: normal; margin: 0pt 0in; text-indent: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;当启用时，实现驼峰转换，将数据库中的字段名含有”_”转换为驼峰自动映射到实体类。否则，不转换为驼峰。&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-52">
+          <mxGeometry x="180" width="461" height="57" as="geometry">
+            <mxRectangle width="461" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-55" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;true | false&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-52">
+          <mxGeometry x="641" width="157" height="57" as="geometry">
+            <mxRectangle width="157" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-56" value="false" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-52">
+          <mxGeometry x="798" width="165" height="57" as="geometry">
+            <mxRectangle width="165" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-57" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-1">
+          <mxGeometry y="606" width="963" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-58" value="autoMappingBehavior" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-57">
+          <mxGeometry width="180" height="57" as="geometry">
+            <mxRectangle width="180" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-59" value="&lt;p style=&quot;line-height: normal; margin: 0pt 0in; text-indent: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;指定 MyBatis 应如何自动映射列到字段或属性。 NONE 表示关闭自动映射；PARTIAL 只会自动映射没有定义嵌套结果映射的字段。 FULL 会自动映射任何复杂的结果集（无论是否嵌套）。&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-57">
+          <mxGeometry x="180" width="461" height="57" as="geometry">
+            <mxRectangle width="461" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-60" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal; font-size: 7px;&quot;&gt;NONE, PARTIAL, FULL&lt;br&gt;&lt;/p&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-57">
+          <mxGeometry x="641" width="157" height="57" as="geometry">
+            <mxRectangle width="157" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fMankPSyvv5HRuAFVGbP-61" value="PARTIAL" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;fontSize=7;" vertex="1" parent="fMankPSyvv5HRuAFVGbP-57">
+          <mxGeometry x="798" width="165" height="57" as="geometry">
+            <mxRectangle width="165" height="57" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
