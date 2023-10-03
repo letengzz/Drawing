@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T12:12:19.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="FOyeioaQbX8A7ZIPR_Gt" version="22.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T23:31:40.299Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="FlbF6j3wVGuKyFYdQGhW" version="22.0.2" type="github">
   <diagram name="第 1 页" id="wvGjfcAGjBCB93CNbPWg">
-    <mxGraphModel dx="743" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="743" dy="418" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dhBXPocProkb51BGqQfS-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="176" y="81" width="368" height="269" as="geometry" />
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="dhBXPocProkb51BGqQfS-1">
+          <mxGeometry width="368" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-3" value="方法" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF9999;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="dhBXPocProkb51BGqQfS-2">
+          <mxGeometry width="184" height="35" as="geometry">
+            <mxRectangle width="184" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-4" value="说明" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF9999;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="dhBXPocProkb51BGqQfS-2">
+          <mxGeometry x="184" width="184" height="35" as="geometry">
+            <mxRectangle width="184" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="dhBXPocProkb51BGqQfS-1">
+          <mxGeometry y="35" width="368" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-7" value="writeFile" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="dhBXPocProkb51BGqQfS-6">
+          <mxGeometry width="184" height="46" as="geometry">
+            <mxRectangle width="184" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-8" value="异步写入" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="dhBXPocProkb51BGqQfS-6">
+          <mxGeometry x="184" width="184" height="46" as="geometry">
+            <mxRectangle width="184" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="dhBXPocProkb51BGqQfS-1">
+          <mxGeometry y="81" width="368" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-11" value="writeFileSync" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="dhBXPocProkb51BGqQfS-10">
+          <mxGeometry width="184" height="47" as="geometry">
+            <mxRectangle width="184" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-12" value="同步写入" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="dhBXPocProkb51BGqQfS-10">
+          <mxGeometry x="184" width="184" height="47" as="geometry">
+            <mxRectangle width="184" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="dhBXPocProkb51BGqQfS-1">
+          <mxGeometry y="128" width="368" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-15" value="appendFile" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="dhBXPocProkb51BGqQfS-14">
+          <mxGeometry width="184" height="47" as="geometry">
+            <mxRectangle width="184" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-16" value="异步追加写入" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="dhBXPocProkb51BGqQfS-14">
+          <mxGeometry x="184" width="184" height="47" as="geometry">
+            <mxRectangle width="184" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="dhBXPocProkb51BGqQfS-1">
+          <mxGeometry y="175" width="368" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-18" value="appendFileSync" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="dhBXPocProkb51BGqQfS-17">
+          <mxGeometry width="184" height="47" as="geometry">
+            <mxRectangle width="184" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-19" value="同步追加写入" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="dhBXPocProkb51BGqQfS-17">
+          <mxGeometry x="184" width="184" height="47" as="geometry">
+            <mxRectangle width="184" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="dhBXPocProkb51BGqQfS-1">
+          <mxGeometry y="222" width="368" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-21" value="createWriteStream" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="dhBXPocProkb51BGqQfS-20">
+          <mxGeometry width="184" height="47" as="geometry">
+            <mxRectangle width="184" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhBXPocProkb51BGqQfS-22" value="流式写入" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="dhBXPocProkb51BGqQfS-20">
+          <mxGeometry x="184" width="184" height="47" as="geometry">
+            <mxRectangle width="184" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
