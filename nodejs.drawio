@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-04T07:55:11.375Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="qHpmJBm5DfbLXPOSmToH" version="22.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-04T09:20:22.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="xyJOYaMU2aNmCDfBxPPy" version="22.0.2" type="github" pages="5">
   <diagram name="fs 写入" id="wvGjfcAGjBCB93CNbPWg">
     <mxGraphModel dx="743" dy="418" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -313,6 +313,14 @@
             <mxRectangle width="184" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="B4IiyJAEJmLVlXHCYEyw" name="HTTP协议">
+    <mxGraphModel dx="743" dy="418" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
