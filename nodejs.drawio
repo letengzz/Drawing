@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-04T12:44:04.337Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="3LhxBP3bBAvRfTTRNzYB" version="22.0.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-04T13:21:46.309Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="eCCY-TBV8kiJ3C8Vxg2n" version="22.0.2" type="github" pages="8">
   <diagram name="fs 写入" id="wvGjfcAGjBCB93CNbPWg">
     <mxGraphModel dx="743" dy="418" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -632,6 +632,82 @@
         <mxCell id="_VX2dB_cBWPyAsrk0Bto-13" value="注册页面" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="_VX2dB_cBWPyAsrk0Bto-10">
           <mxGeometry x="287" width="143" height="47" as="geometry">
             <mxRectangle width="143" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zQWs4UyVRo0RlywicdpA" name="设置 HTTP 响应报文">
+    <mxGraphModel dx="527" dy="347" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="171" y="82" width="430" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-1">
+          <mxGeometry width="430" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-3" value="语法" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#9999FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-2">
+          <mxGeometry width="215" height="35" as="geometry">
+            <mxRectangle width="215" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-4" value="作用" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#9999FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-2">
+          <mxGeometry x="215" width="215" height="35" as="geometry">
+            <mxRectangle width="215" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-1">
+          <mxGeometry y="35" width="430" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-7" value="response.statusCode" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-6">
+          <mxGeometry width="215" height="46" as="geometry">
+            <mxRectangle width="215" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-8" value="设置响应状态码" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-6">
+          <mxGeometry x="215" width="215" height="46" as="geometry">
+            <mxRectangle width="215" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-1">
+          <mxGeometry y="81" width="430" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-11" value="response.statusMessage" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-10">
+          <mxGeometry width="215" height="47" as="geometry">
+            <mxRectangle width="215" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-12" value="设置响应状态描述" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-10">
+          <mxGeometry x="215" width="215" height="47" as="geometry">
+            <mxRectangle width="215" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-1">
+          <mxGeometry y="128" width="430" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-15" value="response.setHeader(&#39;头名&#39;,&#39;头值&#39;)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-14">
+          <mxGeometry width="215" height="47" as="geometry">
+            <mxRectangle width="215" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-16" value="设置响应头信息" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-14">
+          <mxGeometry x="215" width="215" height="47" as="geometry">
+            <mxRectangle width="215" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-1">
+          <mxGeometry y="175" width="430" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-18" value="response.write(&#39;xx&#39;)&lt;br&gt;response.end(&#39;xxx&#39;)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-17">
+          <mxGeometry width="215" height="47" as="geometry">
+            <mxRectangle width="215" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MFBhls2jRkR9jOD6hVGf-19" value="设置响应体" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="MFBhls2jRkR9jOD6hVGf-17">
+          <mxGeometry x="215" width="215" height="47" as="geometry">
+            <mxRectangle width="215" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
