@@ -1,89 +1,145 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T06:19:31.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="YiswoibGIEqw5S9Mg0Zo" version="22.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-05T06:59:30.519Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="sugtR_D-8QPpMgB-P-Sa" version="22.0.2" type="github" pages="2">
   <diagram name="ApplicationContext的主要实现类" id="3frwjtQ0lXQBlWPiReMC">
     <mxGraphModel dx="743" dy="418" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1zXSarL7lR__lsZDVNG9-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="129" y="166" width="601" height="361" as="geometry" />
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-1">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" parent="1zXSarL7lR__lsZDVNG9-1" vertex="1">
           <mxGeometry width="601" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-3" value="类型名" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1zXSarL7lR__lsZDVNG9-2">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-3" value="类型名" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" parent="1zXSarL7lR__lsZDVNG9-2" vertex="1">
           <mxGeometry width="216" height="35" as="geometry">
             <mxRectangle width="216" height="35" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-4" value="简介" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1zXSarL7lR__lsZDVNG9-2">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-4" value="简介" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" parent="1zXSarL7lR__lsZDVNG9-2" vertex="1">
           <mxGeometry x="216" width="385" height="35" as="geometry">
             <mxRectangle width="385" height="35" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-1">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" parent="1zXSarL7lR__lsZDVNG9-1" vertex="1">
           <mxGeometry y="35" width="601" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-7" value="ClassPathXmlApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-6">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-7" value="ClassPathXmlApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" parent="1zXSarL7lR__lsZDVNG9-6" vertex="1">
           <mxGeometry width="216" height="64" as="geometry">
             <mxRectangle width="216" height="64" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-8" value="通过读取类路径下的 XML 格式的配置文件创建 IOC 容器对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-6">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-8" value="通过读取类路径下的 XML 格式的配置文件创建 IOC 容器对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" parent="1zXSarL7lR__lsZDVNG9-6" vertex="1">
           <mxGeometry x="216" width="385" height="64" as="geometry">
             <mxRectangle width="385" height="64" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-1">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" parent="1zXSarL7lR__lsZDVNG9-1" vertex="1">
           <mxGeometry y="99" width="601" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-11" value="FileSystemXmlApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-10">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-11" value="FileSystemXmlApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" parent="1zXSarL7lR__lsZDVNG9-10" vertex="1">
           <mxGeometry width="216" height="65" as="geometry">
             <mxRectangle width="216" height="65" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-12" value="通过文件系统路径读取 XML 格式的配置文件创建 IOC 容器对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-10">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-12" value="通过文件系统路径读取 XML 格式的配置文件创建 IOC 容器对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" parent="1zXSarL7lR__lsZDVNG9-10" vertex="1">
           <mxGeometry x="216" width="385" height="65" as="geometry">
             <mxRectangle width="385" height="65" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-1">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" parent="1zXSarL7lR__lsZDVNG9-1" vertex="1">
           <mxGeometry y="164" width="601" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-15" value="AnnotationConfigApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-14">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-15" value="AnnotationConfigApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" parent="1zXSarL7lR__lsZDVNG9-14" vertex="1">
           <mxGeometry width="216" height="66" as="geometry">
             <mxRectangle width="216" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-16" value="通过读取Java配置类创建 IOC 容器对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-14">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-16" value="通过读取Java配置类创建 IOC 容器对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" parent="1zXSarL7lR__lsZDVNG9-14" vertex="1">
           <mxGeometry x="216" width="385" height="66" as="geometry">
             <mxRectangle width="385" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-1">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" parent="1zXSarL7lR__lsZDVNG9-1" vertex="1">
           <mxGeometry y="230" width="601" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-18" value="WebApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-17">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-18" value="WebApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" parent="1zXSarL7lR__lsZDVNG9-17" vertex="1">
           <mxGeometry width="216" height="65" as="geometry">
             <mxRectangle width="216" height="65" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-19" value="专门为 Web 应用准备，基于 Web 环境创建 IOC 容器对象，并将对象引入存入 ServletContext 域中。" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-17">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-19" value="专门为 Web 应用准备，基于 Web 环境创建 IOC 容器对象，并将对象引入存入 ServletContext 域中。" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" parent="1zXSarL7lR__lsZDVNG9-17" vertex="1">
           <mxGeometry x="216" width="385" height="65" as="geometry">
             <mxRectangle width="385" height="65" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-1">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" parent="1zXSarL7lR__lsZDVNG9-1" vertex="1">
           <mxGeometry y="295" width="601" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-21" value="ConfigurableApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-20">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-21" value="ConfigurableApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" parent="1zXSarL7lR__lsZDVNG9-20" vertex="1">
           <mxGeometry width="216" height="66" as="geometry">
             <mxRectangle width="216" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1zXSarL7lR__lsZDVNG9-22" value="ApplicationContext的子接口，包括一些拓展方法 refresh() 和 close() ，&lt;br&gt;让ApplicationContext 具有启动、关闭和刷新上下文的能力" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-20">
+        <mxCell id="1zXSarL7lR__lsZDVNG9-22" value="ApplicationContext的子接口，包括一些拓展方法 refresh() 和 close() ，&lt;br&gt;让ApplicationContext 具有启动、关闭和刷新上下文的能力" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" parent="1zXSarL7lR__lsZDVNG9-20" vertex="1">
           <mxGeometry x="216" width="385" height="66" as="geometry">
             <mxRectangle width="385" height="66" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="16STVoVR41INIzOc21RR" name="全注解开发">
+    <mxGraphModel dx="1194" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-1" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="219" y="251.5" width="440" height="364.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;XML配置方式&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="188" width="153" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;application.xml 主要配置项：&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="219" y="301" width="245" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-10" value="1. &amp;lt;bean&amp;gt; 标签：直接ioc/di 配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="247" y="370.37" width="195" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-13" value="2. &amp;lt;context:component-scan base-package&amp;gt; 标签：扫描ioc/di注解" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="246" y="422.37" width="407" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-14" value="3. &amp;lt;context:property-placeholder&amp;gt; 标签：引入外部" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="247" y="472.62" width="309" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-20" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;完全注解配置方式&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="986.5" y="188" width="161" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-31" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="847" y="251.5" width="440" height="364.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-33" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;1. 使用配置类替代application.xml&amp;nbsp;因为类中可以添加配置注解，需要添加 @Configuration&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="849" y="309" width="434" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-35" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;2. &amp;lt;bean&amp;gt; 标签，可以使用方法替代，最终配合@Bean注解即可&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="849" y="370.37" width="429" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-36" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;4. &amp;lt;context:property-placeholder&amp;gt; 标签，直接使用@PropertySource 注解替代&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="826" y="472.62" width="405" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="692" y="401" width="137" height="75.25" as="geometry" />
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;width=17;endSize=8.73;fillColor=#FF99CC;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="mrv1dpETwRyj5-v3qWMP-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="137" y="36.24426605504587" as="targetPoint" />
+            <mxPoint y="36.24426605504587" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px; background-color: rgb(255, 255, 255);&quot;&gt;完全注解&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="mrv1dpETwRyj5-v3qWMP-17">
+          <mxGeometry x="10" width="99.05" height="75.25" as="geometry" />
+        </mxCell>
+        <mxCell id="mrv1dpETwRyj5-v3qWMP-37" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;3.&amp;nbsp;&amp;lt;context:component-scan&amp;gt;&amp;nbsp;标签，直接使用@ComponentScan注解替代&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="792" y="416" width="442" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
