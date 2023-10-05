@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2023-10-05T06:19:31.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="YiswoibGIEqw5S9Mg0Zo" version="22.0.2" type="github">
+  <diagram name="ApplicationContext的主要实现类" id="3frwjtQ0lXQBlWPiReMC">
+    <mxGraphModel dx="743" dy="418" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1zXSarL7lR__lsZDVNG9-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="129" y="166" width="601" height="361" as="geometry" />
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-1">
+          <mxGeometry width="601" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-3" value="类型名" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1zXSarL7lR__lsZDVNG9-2">
+          <mxGeometry width="216" height="35" as="geometry">
+            <mxRectangle width="216" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-4" value="简介" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1zXSarL7lR__lsZDVNG9-2">
+          <mxGeometry x="216" width="385" height="35" as="geometry">
+            <mxRectangle width="385" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-1">
+          <mxGeometry y="35" width="601" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-7" value="ClassPathXmlApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-6">
+          <mxGeometry width="216" height="64" as="geometry">
+            <mxRectangle width="216" height="64" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-8" value="通过读取类路径下的 XML 格式的配置文件创建 IOC 容器对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-6">
+          <mxGeometry x="216" width="385" height="64" as="geometry">
+            <mxRectangle width="385" height="64" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-1">
+          <mxGeometry y="99" width="601" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-11" value="FileSystemXmlApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-10">
+          <mxGeometry width="216" height="65" as="geometry">
+            <mxRectangle width="216" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-12" value="通过文件系统路径读取 XML 格式的配置文件创建 IOC 容器对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-10">
+          <mxGeometry x="216" width="385" height="65" as="geometry">
+            <mxRectangle width="385" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-1">
+          <mxGeometry y="164" width="601" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-15" value="AnnotationConfigApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-14">
+          <mxGeometry width="216" height="66" as="geometry">
+            <mxRectangle width="216" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-16" value="通过读取Java配置类创建 IOC 容器对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-14">
+          <mxGeometry x="216" width="385" height="66" as="geometry">
+            <mxRectangle width="385" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-1">
+          <mxGeometry y="230" width="601" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-18" value="WebApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-17">
+          <mxGeometry width="216" height="65" as="geometry">
+            <mxRectangle width="216" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-19" value="专门为 Web 应用准备，基于 Web 环境创建 IOC 容器对象，并将对象引入存入 ServletContext 域中。" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-17">
+          <mxGeometry x="216" width="385" height="65" as="geometry">
+            <mxRectangle width="385" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-1">
+          <mxGeometry y="295" width="601" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-21" value="ConfigurableApplicationContext" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-20">
+          <mxGeometry width="216" height="66" as="geometry">
+            <mxRectangle width="216" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zXSarL7lR__lsZDVNG9-22" value="ApplicationContext的子接口，包括一些拓展方法 refresh() 和 close() ，&lt;br&gt;让ApplicationContext 具有启动、关闭和刷新上下文的能力" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="1zXSarL7lR__lsZDVNG9-20">
+          <mxGeometry x="216" width="385" height="66" as="geometry">
+            <mxRectangle width="385" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
