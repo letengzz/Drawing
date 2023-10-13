@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T09:29:18.964Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="W5DHvg5jAFd6zawtkPfa" version="22.0.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-10-13T05:28:28.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="aSzrvc-XuDoeCZ5W3GBV" version="22.0.4" type="github" pages="9">
   <diagram name="fs 写入" id="wvGjfcAGjBCB93CNbPWg">
-    <mxGraphModel dx="409" dy="352" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="411" dy="328" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -638,7 +638,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zQWs4UyVRo0RlywicdpA" name="设置 HTTP 响应报文">
-    <mxGraphModel dx="743" dy="418" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="411" dy="328" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -708,6 +708,69 @@
         <mxCell id="MFBhls2jRkR9jOD6hVGf-19" value="设置响应体" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" parent="MFBhls2jRkR9jOD6hVGf-17" vertex="1">
           <mxGeometry x="215" width="215" height="47" as="geometry">
             <mxRectangle width="215" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="V-ATzuj8aBCrLL_rIqDn" name="绝对路径">
+    <mxGraphModel dx="743" dy="393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m3HEwsF58vvcWGfpwdqv-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="116" y="94" width="509" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="m3HEwsF58vvcWGfpwdqv-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m3HEwsF58vvcWGfpwdqv-1">
+          <mxGeometry width="509" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m3HEwsF58vvcWGfpwdqv-3" value="形式" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="m3HEwsF58vvcWGfpwdqv-2">
+          <mxGeometry width="127" height="35" as="geometry">
+            <mxRectangle width="127" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3HEwsF58vvcWGfpwdqv-4" value="特点" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="m3HEwsF58vvcWGfpwdqv-2">
+          <mxGeometry x="127" width="382" height="35" as="geometry">
+            <mxRectangle width="382" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3HEwsF58vvcWGfpwdqv-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m3HEwsF58vvcWGfpwdqv-1">
+          <mxGeometry y="35" width="509" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="m3HEwsF58vvcWGfpwdqv-7" value="http://hjc.com/web" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m3HEwsF58vvcWGfpwdqv-6">
+          <mxGeometry width="127" height="46" as="geometry">
+            <mxRectangle width="127" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3HEwsF58vvcWGfpwdqv-8" value="直接向目标资源发送请求，容易理解。网站的外链会用到此形式" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m3HEwsF58vvcWGfpwdqv-6">
+          <mxGeometry x="127" width="382" height="46" as="geometry">
+            <mxRectangle width="382" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3HEwsF58vvcWGfpwdqv-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m3HEwsF58vvcWGfpwdqv-1">
+          <mxGeometry y="81" width="509" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="m3HEwsF58vvcWGfpwdqv-11" value="//hjc.com/web" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m3HEwsF58vvcWGfpwdqv-10">
+          <mxGeometry width="127" height="47" as="geometry">
+            <mxRectangle width="127" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3HEwsF58vvcWGfpwdqv-12" value="与页面 URL 的协议拼接形成完整 URL 再发送请求。&lt;br&gt;大型网站用的比较多" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m3HEwsF58vvcWGfpwdqv-10">
+          <mxGeometry x="127" width="382" height="47" as="geometry">
+            <mxRectangle width="382" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3HEwsF58vvcWGfpwdqv-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m3HEwsF58vvcWGfpwdqv-1">
+          <mxGeometry y="128" width="509" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="m3HEwsF58vvcWGfpwdqv-15" value="/web" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m3HEwsF58vvcWGfpwdqv-14">
+          <mxGeometry width="127" height="47" as="geometry">
+            <mxRectangle width="127" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3HEwsF58vvcWGfpwdqv-16" value="&lt;div&gt;与页面 URL 的协议、主机名、端口拼接形成完整 URL 再发送请求。&lt;/div&gt;&lt;div&gt;中小&lt;span style=&quot;background-color: initial;&quot;&gt;型网站&lt;/span&gt;&lt;/div&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m3HEwsF58vvcWGfpwdqv-14">
+          <mxGeometry x="127" width="382" height="47" as="geometry">
+            <mxRectangle width="382" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
