@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T05:31:10.344Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="YQkEdrJHTqpLThi1a7rv" version="22.0.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-10-13T05:37:42.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="IuuM-b0ik2xu11LPvig5" version="22.0.4" type="github" pages="10">
   <diagram name="fs 写入" id="wvGjfcAGjBCB93CNbPWg">
     <mxGraphModel dx="411" dy="328" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -776,64 +776,77 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="相对路径" id="_jOgIynBr-mXKVUWND_9">
+  <diagram name="相对路径" id="HeuZNpopIF8uObOMVhbz">
     <mxGraphModel dx="743" dy="393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-0" />
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-1" parent="C8NmIGnkUpd5Wb9Twk04-0" />
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-2" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="C8NmIGnkUpd5Wb9Twk04-1">
-          <mxGeometry x="116" y="94" width="509" height="175" as="geometry" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-0" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-1" parent="DoD59WHR09r52l3NyYCp-0" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-2" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="DoD59WHR09r52l3NyYCp-1">
+          <mxGeometry x="115" y="97" width="562" height="222" as="geometry" />
         </mxCell>
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="C8NmIGnkUpd5Wb9Twk04-2">
-          <mxGeometry width="509" height="35" as="geometry" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="DoD59WHR09r52l3NyYCp-2">
+          <mxGeometry width="562" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-4" value="形式" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="C8NmIGnkUpd5Wb9Twk04-3">
-          <mxGeometry width="127" height="35" as="geometry">
-            <mxRectangle width="127" height="35" as="alternateBounds" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-4" value="形式" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="DoD59WHR09r52l3NyYCp-3">
+          <mxGeometry width="154" height="35" as="geometry">
+            <mxRectangle width="154" height="35" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-5" value="特点" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="C8NmIGnkUpd5Wb9Twk04-3">
-          <mxGeometry x="127" width="382" height="35" as="geometry">
-            <mxRectangle width="382" height="35" as="alternateBounds" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-5" value="最终的URL" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="DoD59WHR09r52l3NyYCp-3">
+          <mxGeometry x="154" width="408" height="35" as="geometry">
+            <mxRectangle width="408" height="35" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="C8NmIGnkUpd5Wb9Twk04-2">
-          <mxGeometry y="35" width="509" height="46" as="geometry" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="DoD59WHR09r52l3NyYCp-2">
+          <mxGeometry y="35" width="562" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-7" value="http://hjc.com/web" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="C8NmIGnkUpd5Wb9Twk04-6">
-          <mxGeometry width="127" height="46" as="geometry">
-            <mxRectangle width="127" height="46" as="alternateBounds" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-7" value="./css/app.css" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="DoD59WHR09r52l3NyYCp-6">
+          <mxGeometry width="154" height="46" as="geometry">
+            <mxRectangle width="154" height="46" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-8" value="直接向目标资源发送请求，容易理解。网站的外链会用到此形式" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="C8NmIGnkUpd5Wb9Twk04-6">
-          <mxGeometry x="127" width="382" height="46" as="geometry">
-            <mxRectangle width="382" height="46" as="alternateBounds" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-8" value="http://www.hjc-demo.com/course/css/app.css" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="DoD59WHR09r52l3NyYCp-6">
+          <mxGeometry x="154" width="408" height="46" as="geometry">
+            <mxRectangle width="408" height="46" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-9" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="C8NmIGnkUpd5Wb9Twk04-2">
-          <mxGeometry y="81" width="509" height="47" as="geometry" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-9" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="DoD59WHR09r52l3NyYCp-2">
+          <mxGeometry y="81" width="562" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-10" value="//hjc.com/web" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="C8NmIGnkUpd5Wb9Twk04-9">
-          <mxGeometry width="127" height="47" as="geometry">
-            <mxRectangle width="127" height="47" as="alternateBounds" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-10" value="js/app.js" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="DoD59WHR09r52l3NyYCp-9">
+          <mxGeometry width="154" height="47" as="geometry">
+            <mxRectangle width="154" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-11" value="与页面 URL 的协议拼接形成完整 URL 再发送请求。&lt;br&gt;大型网站用的比较多" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="C8NmIGnkUpd5Wb9Twk04-9">
-          <mxGeometry x="127" width="382" height="47" as="geometry">
-            <mxRectangle width="382" height="47" as="alternateBounds" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-11" value="http://www.hjc-demo.com/course/js/app.js" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="DoD59WHR09r52l3NyYCp-9">
+          <mxGeometry x="154" width="408" height="47" as="geometry">
+            <mxRectangle width="408" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-12" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="C8NmIGnkUpd5Wb9Twk04-2">
-          <mxGeometry y="128" width="509" height="47" as="geometry" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-12" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="DoD59WHR09r52l3NyYCp-2">
+          <mxGeometry y="128" width="562" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-13" value="/web" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="C8NmIGnkUpd5Wb9Twk04-12">
-          <mxGeometry width="127" height="47" as="geometry">
-            <mxRectangle width="127" height="47" as="alternateBounds" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-13" value="../img/logo.png" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="DoD59WHR09r52l3NyYCp-12">
+          <mxGeometry width="154" height="47" as="geometry">
+            <mxRectangle width="154" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C8NmIGnkUpd5Wb9Twk04-14" value="&lt;div&gt;与页面 URL 的协议、主机名、端口拼接形成完整 URL 再发送请求。&lt;/div&gt;&lt;div&gt;中小&lt;span style=&quot;background-color: initial;&quot;&gt;型网站&lt;/span&gt;&lt;/div&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="C8NmIGnkUpd5Wb9Twk04-12">
-          <mxGeometry x="127" width="382" height="47" as="geometry">
-            <mxRectangle width="382" height="47" as="alternateBounds" />
+        <mxCell id="DoD59WHR09r52l3NyYCp-14" value="http://www.hjc-demo.com/img/logo.png" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="DoD59WHR09r52l3NyYCp-12">
+          <mxGeometry x="154" width="408" height="47" as="geometry">
+            <mxRectangle width="408" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB81fX0s6VKS8xTxvrZc-0" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="DoD59WHR09r52l3NyYCp-2">
+          <mxGeometry y="175" width="562" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="zB81fX0s6VKS8xTxvrZc-1" value="../../mp4/show.mp4" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="zB81fX0s6VKS8xTxvrZc-0">
+          <mxGeometry width="154" height="47" as="geometry">
+            <mxRectangle width="154" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zB81fX0s6VKS8xTxvrZc-2" value="http://www.hjc-demo.com/mp4/show.mp4" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="zB81fX0s6VKS8xTxvrZc-0">
+          <mxGeometry x="154" width="408" height="47" as="geometry">
+            <mxRectangle width="408" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
