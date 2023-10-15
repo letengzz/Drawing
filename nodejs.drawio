@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T03:28:50.562Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="FYm_k1nYHihNiBwPQ3Rv" version="22.0.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-10-15T03:32:57.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="fxEmL86wtfnCO-lvHoyX" version="22.0.4" type="github" pages="12">
   <diagram name="fs 写入" id="wvGjfcAGjBCB93CNbPWg">
     <mxGraphModel dx="415" dy="255" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -949,6 +949,107 @@
         <mxCell id="T_PJhHSGu42tqnqSmCH5-25" value="rubyGems" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="T_PJhHSGu42tqnqSmCH5-23">
           <mxGeometry x="238" width="236" height="47" as="geometry">
             <mxRectangle width="236" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jamFrSGqXS9reszy-3rH" name="操作系统层面包管理工具">
+    <mxGraphModel dx="619" dy="328" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="41" width="472.989990234375" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-1">
+          <mxGeometry width="472.989990234375" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-3" value="操作系统" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#9999FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-2">
+          <mxGeometry width="81" height="35" as="geometry">
+            <mxRectangle width="81" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-4" value="包管理工具" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#9999FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-2">
+          <mxGeometry x="81" width="80" height="35" as="geometry">
+            <mxRectangle width="80" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-5" value="网址" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#9999FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-2">
+          <mxGeometry x="161" width="312" height="35" as="geometry">
+            <mxRectangle width="312" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-1">
+          <mxGeometry y="35" width="472.989990234375" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-7" value="CentOS" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-6">
+          <mxGeometry width="81" height="46" as="geometry">
+            <mxRectangle width="81" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-8" value="yum" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-6">
+          <mxGeometry x="81" width="80" height="46" as="geometry">
+            <mxRectangle width="80" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-9" value="https://packages.debian.org/stable/" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-6">
+          <mxGeometry x="161" width="312" height="46" as="geometry">
+            <mxRectangle width="312" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-1">
+          <mxGeometry y="81" width="472.989990234375" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-11" value="Ubuntu" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-10">
+          <mxGeometry width="81" height="47" as="geometry">
+            <mxRectangle width="81" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-12" value="apt" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-10">
+          <mxGeometry x="81" width="80" height="47" as="geometry">
+            <mxRectangle width="80" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-13" value="https://packages.ubuntu.com/" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-10">
+          <mxGeometry x="161" width="312" height="47" as="geometry">
+            <mxRectangle width="312" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-1">
+          <mxGeometry y="128" width="472.989990234375" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-15" value="MacOS" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-14">
+          <mxGeometry width="81" height="47" as="geometry">
+            <mxRectangle width="81" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-16" value="homebrew" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-14">
+          <mxGeometry x="81" width="80" height="47" as="geometry">
+            <mxRectangle width="80" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-17" value="https://brew.sh/" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-14">
+          <mxGeometry x="161" width="312" height="47" as="geometry">
+            <mxRectangle width="312" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-18" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-1">
+          <mxGeometry y="175" width="472.989990234375" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-19" value="Windows" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-18">
+          <mxGeometry width="81" height="47" as="geometry">
+            <mxRectangle width="81" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-20" value="chocolatey" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-18">
+          <mxGeometry x="81" width="80" height="47" as="geometry">
+            <mxRectangle width="80" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMQGzSpd4sU8DDwD3OPt-21" value="https://chocolatey.org/" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-18">
+          <mxGeometry x="161" width="312" height="47" as="geometry">
+            <mxRectangle width="312" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
