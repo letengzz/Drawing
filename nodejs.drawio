@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T03:32:57.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="fxEmL86wtfnCO-lvHoyX" version="22.0.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-10-25T15:09:42.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="7Xdx8BD0yu2EgbO7yHEb" version="22.0.8" type="github" pages="13">
   <diagram name="fs 写入" id="wvGjfcAGjBCB93CNbPWg">
-    <mxGraphModel dx="415" dy="255" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1050,6 +1050,71 @@
         <mxCell id="AMQGzSpd4sU8DDwD3OPt-21" value="https://chocolatey.org/" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="AMQGzSpd4sU8DDwD3OPt-18">
           <mxGeometry x="161" width="312" height="47" as="geometry">
             <mxRectangle width="312" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UaWCUQjynIy9ada8meEe" name="生产依赖与开发依赖">
+    <mxGraphModel dx="724" dy="368" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RspvsSLdAwg25dXLhCZM-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="123" y="135" width="566" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="RspvsSLdAwg25dXLhCZM-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="RspvsSLdAwg25dXLhCZM-1">
+          <mxGeometry width="566" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="RspvsSLdAwg25dXLhCZM-3" value="类型" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="RspvsSLdAwg25dXLhCZM-2">
+          <mxGeometry width="84" height="35" as="geometry">
+            <mxRectangle width="84" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RspvsSLdAwg25dXLhCZM-4" value="命令" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="RspvsSLdAwg25dXLhCZM-2">
+          <mxGeometry x="84" width="181" height="35" as="geometry">
+            <mxRectangle width="181" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RspvsSLdAwg25dXLhCZM-5" value="补充" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="RspvsSLdAwg25dXLhCZM-2">
+          <mxGeometry x="265" width="301" height="35" as="geometry">
+            <mxRectangle width="301" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RspvsSLdAwg25dXLhCZM-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="RspvsSLdAwg25dXLhCZM-1">
+          <mxGeometry y="35" width="566" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="RspvsSLdAwg25dXLhCZM-7" value="生产依赖" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="RspvsSLdAwg25dXLhCZM-6">
+          <mxGeometry width="84" height="74" as="geometry">
+            <mxRectangle width="84" height="74" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RspvsSLdAwg25dXLhCZM-8" value="npm i -S uniq&lt;br&gt;npm i --save uniq" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="RspvsSLdAwg25dXLhCZM-6">
+          <mxGeometry x="84" width="181" height="74" as="geometry">
+            <mxRectangle width="181" height="74" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RspvsSLdAwg25dXLhCZM-9" value="-S 等效于 --save，-S是默认选项&lt;br&gt;包信息保存在package.json中dependencies 属性" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="RspvsSLdAwg25dXLhCZM-6">
+          <mxGeometry x="265" width="301" height="74" as="geometry">
+            <mxRectangle width="301" height="74" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RspvsSLdAwg25dXLhCZM-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="RspvsSLdAwg25dXLhCZM-1">
+          <mxGeometry y="109" width="566" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="RspvsSLdAwg25dXLhCZM-11" value="开发环境" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="RspvsSLdAwg25dXLhCZM-10">
+          <mxGeometry width="84" height="75" as="geometry">
+            <mxRectangle width="84" height="75" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RspvsSLdAwg25dXLhCZM-12" value="npm i -D less&lt;br&gt;npm i --save-dev less" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="RspvsSLdAwg25dXLhCZM-10">
+          <mxGeometry x="84" width="181" height="75" as="geometry">
+            <mxRectangle width="181" height="75" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RspvsSLdAwg25dXLhCZM-13" value="-D 等效于 --save-dev&lt;br&gt;包信息保存在package.json中devDependencies属性" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="RspvsSLdAwg25dXLhCZM-10">
+          <mxGeometry x="265" width="301" height="75" as="geometry">
+            <mxRectangle width="301" height="75" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
