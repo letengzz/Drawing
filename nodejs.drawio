@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T13:05:26.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="8h5FjEYzfTv8bfpLBeSE" version="22.0.8" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-10-26T13:13:26.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="eNGvbE73cSCJjOVAMBw2" version="22.0.8" type="github" pages="16">
   <diagram name="fs 写入" id="wvGjfcAGjBCB93CNbPWg">
     <mxGraphModel dx="684" dy="475" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1286,7 +1286,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="nvm" id="0G_FRdFRwmraZ9B0p0Bq">
-    <mxGraphModel dx="875" dy="445" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="724" dy="368" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="m-We6mxi5IWell8QJbdN-0" />
         <mxCell id="m-We6mxi5IWell8QJbdN-1" parent="m-We6mxi5IWell8QJbdN-0" />
@@ -1314,7 +1314,7 @@
             <mxRectangle width="281" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m-We6mxi5IWell8QJbdN-8" value="yarn init / yarn init -y" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m-We6mxi5IWell8QJbdN-6">
+        <mxCell id="m-We6mxi5IWell8QJbdN-8" value="显示所有可以下载的 Node.js 版本" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m-We6mxi5IWell8QJbdN-6">
           <mxGeometry x="281" width="279" height="47" as="geometry">
             <mxRectangle width="279" height="47" as="alternateBounds" />
           </mxGeometry>
