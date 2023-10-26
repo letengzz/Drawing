@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T12:14:34.457Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="FXwsvpgbNGzZFBMGXZYB" version="22.0.8" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-10-26T13:05:26.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="8h5FjEYzfTv8bfpLBeSE" version="22.0.8" type="github" pages="16">
   <diagram name="fs 写入" id="wvGjfcAGjBCB93CNbPWg">
     <mxGraphModel dx="684" dy="475" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1278,6 +1278,108 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_GMBfgz1EVC4Kl2rPl3n-17" value="yarn &amp;lt;别名&amp;gt; # 不需要添加 run&lt;br/&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="_GMBfgz1EVC4Kl2rPl3n-15">
+          <mxGeometry x="281" width="279" height="47" as="geometry">
+            <mxRectangle width="279" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="nvm" id="0G_FRdFRwmraZ9B0p0Bq">
+    <mxGraphModel dx="875" dy="445" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="m-We6mxi5IWell8QJbdN-0" />
+        <mxCell id="m-We6mxi5IWell8QJbdN-1" parent="m-We6mxi5IWell8QJbdN-0" />
+        <mxCell id="m-We6mxi5IWell8QJbdN-2" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="m-We6mxi5IWell8QJbdN-1">
+          <mxGeometry x="121" y="150" width="560" height="317.10009765625" as="geometry" />
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m-We6mxi5IWell8QJbdN-2">
+          <mxGeometry width="560" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-4" value="命令" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FFFF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="m-We6mxi5IWell8QJbdN-3">
+          <mxGeometry width="281" height="35" as="geometry">
+            <mxRectangle width="281" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-5" value="说明" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FFFF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="m-We6mxi5IWell8QJbdN-3">
+          <mxGeometry x="281" width="279" height="35" as="geometry">
+            <mxRectangle width="279" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m-We6mxi5IWell8QJbdN-2">
+          <mxGeometry y="35" width="560" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-7" value="nvm list available " style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m-We6mxi5IWell8QJbdN-6">
+          <mxGeometry width="281" height="47" as="geometry">
+            <mxRectangle width="281" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-8" value="yarn init / yarn init -y" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m-We6mxi5IWell8QJbdN-6">
+          <mxGeometry x="281" width="279" height="47" as="geometry">
+            <mxRectangle width="279" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-9" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m-We6mxi5IWell8QJbdN-2">
+          <mxGeometry y="82" width="560" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-10" value="nvm list " style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m-We6mxi5IWell8QJbdN-9">
+          <mxGeometry width="281" height="47" as="geometry">
+            <mxRectangle width="281" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-11" value="显示已安装的版本" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m-We6mxi5IWell8QJbdN-9">
+          <mxGeometry x="281" width="279" height="47" as="geometry">
+            <mxRectangle width="279" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-12" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m-We6mxi5IWell8QJbdN-2">
+          <mxGeometry y="129" width="560" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-13" value="nvm install 18.12.1" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m-We6mxi5IWell8QJbdN-12">
+          <mxGeometry width="281" height="47" as="geometry">
+            <mxRectangle width="281" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-14" value="安装 18.12.1 版本的 Node.js&amp;nbsp;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m-We6mxi5IWell8QJbdN-12">
+          <mxGeometry x="281" width="279" height="47" as="geometry">
+            <mxRectangle width="279" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m-We6mxi5IWell8QJbdN-2">
+          <mxGeometry y="176" width="560" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-16" value="nvm install latest" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m-We6mxi5IWell8QJbdN-15">
+          <mxGeometry width="281" height="47" as="geometry">
+            <mxRectangle width="281" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-17" value="安装最新版的 Node.js" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m-We6mxi5IWell8QJbdN-15">
+          <mxGeometry x="281" width="279" height="47" as="geometry">
+            <mxRectangle width="279" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-18" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m-We6mxi5IWell8QJbdN-2">
+          <mxGeometry y="223" width="560" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-19" value="nvm uninstall 18.12.1" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m-We6mxi5IWell8QJbdN-18">
+          <mxGeometry width="281" height="47" as="geometry">
+            <mxRectangle width="281" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m-We6mxi5IWell8QJbdN-20" value="删除某个版本的 Node.js&lt;br/&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m-We6mxi5IWell8QJbdN-18">
+          <mxGeometry x="281" width="279" height="47" as="geometry">
+            <mxRectangle width="279" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htKt4XZDpEFVkZ_a9nVo-0" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m-We6mxi5IWell8QJbdN-2">
+          <mxGeometry y="270" width="560" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="htKt4XZDpEFVkZ_a9nVo-1" value="nvm use 18.12.1 " style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="htKt4XZDpEFVkZ_a9nVo-0">
+          <mxGeometry width="281" height="47" as="geometry">
+            <mxRectangle width="281" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htKt4XZDpEFVkZ_a9nVo-2" value="切换 18.12.1 的 Node.js" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="htKt4XZDpEFVkZ_a9nVo-0">
           <mxGeometry x="281" width="279" height="47" as="geometry">
             <mxRectangle width="279" height="47" as="alternateBounds" />
           </mxGeometry>
