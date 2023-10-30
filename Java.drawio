@@ -1,9 +1,155 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T01:02:36.323Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="PY2eqN-XeiMdn2jrRvBq" type="github">
-  <diagram name="第 1 页" id="ZGPOU9bdRQMk_ABTPPWa">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-10-30T01:09:08.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="91QnXDBlw9HnBgH9BDm0" version="22.0.8" type="github">
+  <diagram name="BigDecimal" id="ZGPOU9bdRQMk_ABTPPWa">
+    <mxGraphModel dx="1050" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="141" width="500.95001220703125" height="504" as="geometry" />
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-1">
+          <mxGeometry width="500.95001220703125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-3" value="方法" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99CCFF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-2">
+          <mxGeometry width="125" height="35" as="geometry">
+            <mxRectangle width="125" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-4" value="含义" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99CCFF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-2">
+          <mxGeometry x="125" width="376" height="35" as="geometry">
+            <mxRectangle width="376" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-1">
+          <mxGeometry y="35" width="500.95001220703125" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-7" value="add(BigDecimal)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-6">
+          <mxGeometry width="125" height="46" as="geometry">
+            <mxRectangle width="125" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-8" value="BigDecimal对象中的值相加，返回BigDecimal对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-6">
+          <mxGeometry x="125" width="376" height="46" as="geometry">
+            <mxRectangle width="376" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-1">
+          <mxGeometry y="81" width="500.95001220703125" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-11" value="subtract(BigDecimal)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-10">
+          <mxGeometry width="125" height="47" as="geometry">
+            <mxRectangle width="125" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-12" value="BigDecimal对象中的值相减，返回BigDecimal对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-10">
+          <mxGeometry x="125" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-1">
+          <mxGeometry y="128" width="500.95001220703125" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-15" value="multiply(BigDecimal)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-14">
+          <mxGeometry width="125" height="47" as="geometry">
+            <mxRectangle width="125" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-16" value="BigDecimal对象中的值相乘，返回BigDecimal对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-14">
+          <mxGeometry x="125" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-1">
+          <mxGeometry y="175" width="500.95001220703125" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-18" value="divide(BigDecimal)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-17">
+          <mxGeometry width="125" height="47" as="geometry">
+            <mxRectangle width="125" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-19" value="BigDecimal对象中的值相除，返回BigDecimal对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-17">
+          <mxGeometry x="125" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-1">
+          <mxGeometry y="222" width="500.95001220703125" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-21" value="toString()" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-20">
+          <mxGeometry width="125" height="47" as="geometry">
+            <mxRectangle width="125" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-22" value="将BigDecimal对象中的值转换成字符串" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-20">
+          <mxGeometry x="125" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-1">
+          <mxGeometry y="269" width="500.95001220703125" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-24" value="doubleValue()" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-23">
+          <mxGeometry width="125" height="47" as="geometry">
+            <mxRectangle width="125" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-25" value="将BigDecimal对象中的值转换成双精度数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-23">
+          <mxGeometry x="125" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-26" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-1">
+          <mxGeometry y="316" width="500.95001220703125" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-27" value="floatValue()" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-26">
+          <mxGeometry width="125" height="47" as="geometry">
+            <mxRectangle width="125" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-28" value="将BigDecimal对象中的值转换成单精度数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-26">
+          <mxGeometry x="125" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-29" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-1">
+          <mxGeometry y="363" width="500.95001220703125" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-30" value="longValue()" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-29">
+          <mxGeometry width="125" height="47" as="geometry">
+            <mxRectangle width="125" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-31" value="将BigDecimal对象中的值转换成长整数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-29">
+          <mxGeometry x="125" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-32" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-1">
+          <mxGeometry y="410" width="500.95001220703125" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-33" value="intValue()" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-32">
+          <mxGeometry width="125" height="47" as="geometry">
+            <mxRectangle width="125" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-34" value="将BigDecimal对象中的值转换成整数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-32">
+          <mxGeometry x="125" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-35" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-1">
+          <mxGeometry y="457" width="500.95001220703125" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-36" value="compareTo()" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-35">
+          <mxGeometry width="125" height="47" as="geometry">
+            <mxRectangle width="125" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rO_0RzukYQUUVJJy2ZyT-37" value="BigDecimal比较大小" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="rO_0RzukYQUUVJJy2ZyT-35">
+          <mxGeometry x="125" width="376" height="47" as="geometry">
+            <mxRectangle width="376" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
