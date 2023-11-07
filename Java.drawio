@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T13:18:37.271Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="S1ethggAAcsLktr_ytuB" version="22.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-07T13:34:31.698Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="uCa6Lpkbxw8eKSaYj0MA" version="22.0.8" type="github" pages="4">
   <diagram name="BigDecimal" id="ZGPOU9bdRQMk_ABTPPWa">
     <mxGraphModel dx="1050" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -264,7 +264,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7BxsmVHKsUe__uTEfdsA" name="maven生命周期">
-    <mxGraphModel dx="1050" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="688" dy="533" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -341,6 +341,53 @@
         <mxCell id="SwEAupGMLEQS-zYdP7uu-17" value="validate generate-sources process-sources generate-resources process-resources 复制并处理资源文件，至目标目录，准备打包。 compile 编译项目 main 目录下的源代码。 process-classes generate-test-sources process-test-sources generate-test-resources process-test-resources 复制并处理资源文件，至目标测试目录。 test-compile 编译测试源代码。 process-test-classes test 使用合适的单元测试框架运行测试。这些测试代码不会被打包或部署。 prepare-package package 接受编译好的代码，打包成可发布的格式，如JAR。 pre-integration-test integration-test post-integration-test verify install将包安装至本地仓库，以让其它项目依赖。 deploy将最终的包复制到远程的仓库，以让其它开发人员共享；或者部署到服务器上运行（需借助插件，例如：cargo）。" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-14">
           <mxGeometry x="172" width="643" height="132" as="geometry">
             <mxRectangle width="643" height="132" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="R_m3KIDZAWfg-qjELzGI" name="maven profile">
+    <mxGraphModel dx="688" dy="533" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="277RnX4VUEfXMEgr2pv6-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="148" width="795" height="124.14999389648438" as="geometry" />
+        </mxCell>
+        <mxCell id="277RnX4VUEfXMEgr2pv6-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="277RnX4VUEfXMEgr2pv6-1">
+          <mxGeometry width="795" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="277RnX4VUEfXMEgr2pv6-3" value="开发环境" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#9999FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="277RnX4VUEfXMEgr2pv6-2">
+          <mxGeometry width="249" height="35" as="geometry">
+            <mxRectangle width="249" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="277RnX4VUEfXMEgr2pv6-4" value="测试环境" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#9999FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="277RnX4VUEfXMEgr2pv6-2">
+          <mxGeometry x="249" width="248" height="35" as="geometry">
+            <mxRectangle width="248" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="277RnX4VUEfXMEgr2pv6-5" value="生产环境&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#9999FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="277RnX4VUEfXMEgr2pv6-2">
+          <mxGeometry x="497" width="298" height="35" as="geometry">
+            <mxRectangle width="298" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="277RnX4VUEfXMEgr2pv6-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="277RnX4VUEfXMEgr2pv6-1">
+          <mxGeometry y="35" width="795" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="277RnX4VUEfXMEgr2pv6-7" value="dev.driver=com.mysql.jdbc.Driver dev.url=jdbc:mysql://124.71.36.17:3306/db-sys &lt;br&gt;dev.username=root &lt;br&gt;dev.password=123123" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="277RnX4VUEfXMEgr2pv6-6">
+          <mxGeometry width="249" height="89" as="geometry">
+            <mxRectangle width="249" height="89" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="277RnX4VUEfXMEgr2pv6-8" value="test.driver=com.mysql.jdbc.Driver test.url=jdbc:mysql://124.71.36.89:3306/db-sys &lt;br&gt;test.username=dev-team &lt;br&gt;test.password=123123" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="277RnX4VUEfXMEgr2pv6-6">
+          <mxGeometry x="249" width="248" height="89" as="geometry">
+            <mxRectangle width="248" height="89" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="277RnX4VUEfXMEgr2pv6-9" value="product.driver=com.mysql.jdbc.Driver product.url=jdbc:mysql://39.107.88.164:3306/prod-db-sys &lt;br&gt;product.username=root &lt;br&gt;product.password=123123" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="277RnX4VUEfXMEgr2pv6-6">
+          <mxGeometry x="497" width="298" height="89" as="geometry">
+            <mxRectangle width="298" height="89" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
