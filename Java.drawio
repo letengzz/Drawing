@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-05T09:42:44.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="w0OupTYCEGslMN6yE9z3" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-11-07T13:18:37.271Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="S1ethggAAcsLktr_ytuB" version="22.0.8" type="github" pages="3">
   <diagram name="BigDecimal" id="ZGPOU9bdRQMk_ABTPPWa">
     <mxGraphModel dx="1050" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -258,6 +258,89 @@
         <mxCell id="EVCs8yATAE3dSSQvfmky-29" value="无效" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="EVCs8yATAE3dSSQvfmky-10">
           <mxGeometry x="442" width="111" height="47" as="geometry">
             <mxRectangle width="111" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7BxsmVHKsUe__uTEfdsA" name="maven生命周期">
+    <mxGraphModel dx="1050" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="7" y="50" width="815" height="261" as="geometry" />
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-1">
+          <mxGeometry width="815" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-3" value="生命周期名称" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FF99;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-2">
+          <mxGeometry width="87" height="35" as="geometry">
+            <mxRectangle width="87" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-4" value="作用" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FF99;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-2">
+          <mxGeometry x="87" width="85" height="35" as="geometry">
+            <mxRectangle width="85" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-5" value="各个环节" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FF99;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-2">
+          <mxGeometry x="172" width="643" height="35" as="geometry">
+            <mxRectangle width="643" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-1">
+          <mxGeometry y="35" width="815" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-7" value="Clean" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-6">
+          <mxGeometry width="87" height="47" as="geometry">
+            <mxRectangle width="87" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-8" value="清理操作相关" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-6">
+          <mxGeometry x="87" width="85" height="47" as="geometry">
+            <mxRectangle width="85" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-9" value="pre-clean clean post-clean" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-6">
+          <mxGeometry x="172" width="643" height="47" as="geometry">
+            <mxRectangle width="643" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-1">
+          <mxGeometry y="82" width="815" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-11" value="Site" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-10">
+          <mxGeometry width="87" height="47" as="geometry">
+            <mxRectangle width="87" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-12" value="生成站点相关" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-10">
+          <mxGeometry x="87" width="85" height="47" as="geometry">
+            <mxRectangle width="85" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-13" value="pre-site site post-site deploy-site" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-10">
+          <mxGeometry x="172" width="643" height="47" as="geometry">
+            <mxRectangle width="643" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-1">
+          <mxGeometry y="129" width="815" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-15" value="Default" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-14">
+          <mxGeometry width="87" height="132" as="geometry">
+            <mxRectangle width="87" height="132" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-16" value="主要构建过程" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-14">
+          <mxGeometry x="87" width="85" height="132" as="geometry">
+            <mxRectangle width="85" height="132" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwEAupGMLEQS-zYdP7uu-17" value="validate generate-sources process-sources generate-resources process-resources 复制并处理资源文件，至目标目录，准备打包。 compile 编译项目 main 目录下的源代码。 process-classes generate-test-sources process-test-sources generate-test-resources process-test-resources 复制并处理资源文件，至目标测试目录。 test-compile 编译测试源代码。 process-test-classes test 使用合适的单元测试框架运行测试。这些测试代码不会被打包或部署。 prepare-package package 接受编译好的代码，打包成可发布的格式，如JAR。 pre-integration-test integration-test post-integration-test verify install将包安装至本地仓库，以让其它项目依赖。 deploy将最终的包复制到远程的仓库，以让其它开发人员共享；或者部署到服务器上运行（需借助插件，例如：cargo）。" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="SwEAupGMLEQS-zYdP7uu-14">
+          <mxGeometry x="172" width="643" height="132" as="geometry">
+            <mxRectangle width="643" height="132" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
