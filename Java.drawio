@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T13:10:47.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Eh68G2fkvMedxWOWtgf8" version="22.0.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-11-08T13:14:11.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ETRkTRRfZBDQsVE_LiNM" version="22.0.8" type="github" pages="7">
   <diagram name="BigDecimal" id="ZGPOU9bdRQMk_ABTPPWa">
     <mxGraphModel dx="1050" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -498,6 +498,82 @@
         <mxCell id="HDor6ssJVbNIzG7uHwvL-16" value="存放：本团队其他开发人员部署到 Nexus 的 jar 包" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="HDor6ssJVbNIzG7uHwvL-14">
           <mxGeometry x="191" width="302" height="47" as="geometry">
             <mxRectangle width="302" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="maven nexus" id="ujfRqJ63j2jNLnyUbkJ4">
+    <mxGraphModel dx="1050" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0btyl1kdIroj7oUeG9I2-0" />
+        <mxCell id="0btyl1kdIroj7oUeG9I2-1" parent="0btyl1kdIroj7oUeG9I2-0" />
+        <mxCell id="0btyl1kdIroj7oUeG9I2-2" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="0btyl1kdIroj7oUeG9I2-1">
+          <mxGeometry x="142" y="186" width="597" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="0btyl1kdIroj7oUeG9I2-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="0btyl1kdIroj7oUeG9I2-2">
+          <mxGeometry width="597" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0btyl1kdIroj7oUeG9I2-4" value="仓库名称" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FFFF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="0btyl1kdIroj7oUeG9I2-3">
+          <mxGeometry width="156" height="35" as="geometry">
+            <mxRectangle width="156" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0btyl1kdIroj7oUeG9I2-5" value="说明" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#99FFFF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="0btyl1kdIroj7oUeG9I2-3">
+          <mxGeometry x="156" width="441" height="35" as="geometry">
+            <mxRectangle width="441" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0btyl1kdIroj7oUeG9I2-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="0btyl1kdIroj7oUeG9I2-2">
+          <mxGeometry y="35" width="597" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="0btyl1kdIroj7oUeG9I2-7" value="maven-central" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="0btyl1kdIroj7oUeG9I2-6">
+          <mxGeometry width="156" height="46" as="geometry">
+            <mxRectangle width="156" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0btyl1kdIroj7oUeG9I2-8" value="Nexus 对 Maven 中央仓库的代理" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="0btyl1kdIroj7oUeG9I2-6">
+          <mxGeometry x="156" width="441" height="46" as="geometry">
+            <mxRectangle width="441" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0btyl1kdIroj7oUeG9I2-9" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="0btyl1kdIroj7oUeG9I2-2">
+          <mxGeometry y="81" width="597" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="0btyl1kdIroj7oUeG9I2-10" value="maven-public" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="0btyl1kdIroj7oUeG9I2-9">
+          <mxGeometry width="156" height="47" as="geometry">
+            <mxRectangle width="156" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0btyl1kdIroj7oUeG9I2-11" value="Nexus 默认创建，供开发人员下载使用的组仓库" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="0btyl1kdIroj7oUeG9I2-9">
+          <mxGeometry x="156" width="441" height="47" as="geometry">
+            <mxRectangle width="441" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0btyl1kdIroj7oUeG9I2-12" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="0btyl1kdIroj7oUeG9I2-2">
+          <mxGeometry y="128" width="597" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="0btyl1kdIroj7oUeG9I2-13" value="maven-releasse" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="0btyl1kdIroj7oUeG9I2-12">
+          <mxGeometry width="156" height="47" as="geometry">
+            <mxRectangle width="156" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0btyl1kdIroj7oUeG9I2-14" value="Nexus 默认创建，供开发人员部署自己 jar 包的宿主仓库 要求 releasse 版本" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="0btyl1kdIroj7oUeG9I2-12">
+          <mxGeometry x="156" width="441" height="47" as="geometry">
+            <mxRectangle width="441" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atmQmChDvTTaQwM6M6iE-0" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="0btyl1kdIroj7oUeG9I2-2">
+          <mxGeometry y="175" width="597" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="atmQmChDvTTaQwM6M6iE-1" value="maven-snapshots" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="atmQmChDvTTaQwM6M6iE-0">
+          <mxGeometry width="156" height="47" as="geometry">
+            <mxRectangle width="156" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atmQmChDvTTaQwM6M6iE-2" value="Nexus 默认创建，供开发人员部署自己 jar 包的宿主仓库 要求 snapshots 版本" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="atmQmChDvTTaQwM6M6iE-0">
+          <mxGeometry x="156" width="441" height="47" as="geometry">
+            <mxRectangle width="441" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
