@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T13:14:11.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ETRkTRRfZBDQsVE_LiNM" version="22.0.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-17T06:27:15.712Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Sg_F5pMFk8GIRAXu_kOK" version="22.1.11" type="github" pages="8">
   <diagram name="BigDecimal" id="ZGPOU9bdRQMk_ABTPPWa">
-    <mxGraphModel dx="1050" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -574,6 +574,150 @@
         <mxCell id="atmQmChDvTTaQwM6M6iE-2" value="Nexus 默认创建，供开发人员部署自己 jar 包的宿主仓库 要求 snapshots 版本" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="atmQmChDvTTaQwM6M6iE-0">
           <mxGeometry x="156" width="441" height="47" as="geometry">
             <mxRectangle width="441" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TTkSQ6zNjgZ4bDpwCU1i" name="需求分析">
+    <mxGraphModel dx="1877" dy="1691" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-1" value="&lt;table class=&quot;md-table&quot; style=&quot;box-sizing: border-box; border-collapse: collapse; border-spacing: 0px; width: 964px; overflow: auto; break-inside: auto; text-align: left; cursor: text; margin: 0px; padding: 0px; word-break: initial; color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;&lt;tr class=&quot;md-end-block&quot; style=&quot;box-sizing: border-box; break-inside: avoid; break-after: auto; border: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px;&quot;&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;thead style=&quot;box-sizing: border-box; break-inside: avoid; break-after: auto; display: table-header-group; background-color: rgb(248, 248, 248);&quot;&gt;&lt;tr class=&quot;md-end-block md-focus-container&quot; style=&quot;box-sizing: border-box; break-inside: avoid; break-after: auto; border: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px;&quot;&gt;&lt;th style=&quot;box-sizing: border-box; padding: 6px 13px; font-weight: bold; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(223, 226, 229); border-right-color: rgb(223, 226, 229); border-left-color: rgb(223, 226, 229); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; margin: 0px;&quot;&gt;&lt;span class=&quot;td-span md-focus&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 78.8px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-pair-s md-expand&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;项目&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;&lt;th style=&quot;box-sizing: border-box; padding: 6px 13px; font-weight: bold; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(223, 226, 229); border-right-color: rgb(223, 226, 229); border-left-color: rgb(223, 226, 229); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; margin: 0px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 830.2px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-pair-s&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;添加课程&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;&lt;tr class=&quot;md-end-block&quot; style=&quot;box-sizing: border-box; break-inside: avoid; break-after: auto; border: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 78.8px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;功能名称&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 830.2px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;添加课程&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;md-end-block&quot; style=&quot;box-sizing: border-box; break-inside: avoid; break-after: auto; border: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; background-color: rgb(248, 248, 248);&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 78.8px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;功能描述&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 830.2px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;添加课程基本信息&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;md-end-block&quot; style=&quot;box-sizing: border-box; break-inside: avoid; break-after: auto; border: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 78.8px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;参与者&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 830.2px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;教学机构管理员&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;md-end-block&quot; style=&quot;box-sizing: border-box; break-inside: avoid; break-after: auto; border: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; background-color: rgb(248, 248, 248);&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 78.8px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;前置条件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 830.2px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;教学机构管理只允许向自己机构添加课程 拥有添加课程的权限&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;md-end-block&quot; style=&quot;box-sizing: border-box; break-inside: avoid; break-after: auto; border: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 78.8px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;基本事件流程&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 830.2px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;1、登录教学机构平台 2、进入课程列表页面 3、点击添加课程按钮进入添加课程界面 4、填写课程基本信息 5、点击提交。&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;md-end-block&quot; style=&quot;box-sizing: border-box; break-inside: avoid; break-after: auto; border: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; background-color: rgb(248, 248, 248);&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 78.8px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;可选事件流程&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 830.2px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;成功：提示添加成功，跳转到课程营销信息添加界面 失败：提示具体的失败信息，用户根据失败信息进行修改。&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;md-end-block&quot; style=&quot;box-sizing: border-box; break-inside: avoid; break-after: auto; border: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 78.8px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;数据描述&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 830.2px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;课程基本信息：课程id、课程名称、课程介绍、课程大分类、课程小分类、课程等级、课程图片、所属机构、课程创建时间、课程修改时间、课程状态&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;md-end-block&quot; style=&quot;box-sizing: border-box; break-inside: avoid; break-after: auto; border: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; background-color: rgb(248, 248, 248);&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 78.8px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;后置条件&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 830.2px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;向课程基本信息插入一条记录&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&quot;md-end-block&quot; style=&quot;box-sizing: border-box; break-inside: avoid; break-after: auto; border: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 78.8px; min-height: 10px;&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box;&quot;&gt;补充说明&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; padding: 6px 13px; border: 1px solid rgb(223, 226, 229); margin: 0px; min-width: 32px;&quot;&gt;&lt;span class=&quot;td-span md-focus&quot; style=&quot;box-sizing: border-box; display: inline-block; min-width: 1ch; width: 830.2px; min-height: 10px;&quot;&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-18" y="-99" width="816" height="415" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-2" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="108" y="319" width="690" height="482.45000610351565" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-2">
+          <mxGeometry width="690" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-4" value="项目" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-3">
+          <mxGeometry width="135" height="43" as="geometry">
+            <mxRectangle width="135" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-5" value="添加课程" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-3">
+          <mxGeometry x="135" width="555" height="43" as="geometry">
+            <mxRectangle width="555" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-7" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-2">
+          <mxGeometry y="43" width="690" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-8" value="功能名称" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-7">
+          <mxGeometry width="135" height="43" as="geometry">
+            <mxRectangle width="135" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-9" value="添加课程" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-7">
+          <mxGeometry x="135" width="555" height="43" as="geometry">
+            <mxRectangle width="555" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-11" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-2">
+          <mxGeometry y="86" width="690" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-12" value="功能描述" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-11">
+          <mxGeometry width="135" height="43" as="geometry">
+            <mxRectangle width="135" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-13" value="添加课程基本信息" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-11">
+          <mxGeometry x="135" width="555" height="43" as="geometry">
+            <mxRectangle width="555" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-2">
+          <mxGeometry y="129" width="690" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-16" value="参与者" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-15">
+          <mxGeometry width="135" height="43" as="geometry">
+            <mxRectangle width="135" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-17" value="教学机构管理员" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-15">
+          <mxGeometry x="135" width="555" height="43" as="geometry">
+            <mxRectangle width="555" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-18" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-2">
+          <mxGeometry y="172" width="690" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-19" value="前置条件" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-18">
+          <mxGeometry width="135" height="43" as="geometry">
+            <mxRectangle width="135" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-20" value="教学机构管理只允许向自己机构添加课程 拥有添加课程的权限" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-18">
+          <mxGeometry x="135" width="555" height="43" as="geometry">
+            <mxRectangle width="555" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-21" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-2">
+          <mxGeometry y="215" width="690" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-22" value="基本事件流程" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-21">
+          <mxGeometry width="135" height="87" as="geometry">
+            <mxRectangle width="135" height="87" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-23" value="1、登录教学机构平台&lt;br&gt;2、进入课程列表页面&lt;br&gt;3、点击添加课程按钮进入添加课程界面&lt;br&gt;4、添加课程基本信息&lt;br&gt;5、点击提交" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-21">
+          <mxGeometry x="135" width="555" height="87" as="geometry">
+            <mxRectangle width="555" height="87" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-24" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-2">
+          <mxGeometry y="302" width="690" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-25" value="可选事件流程" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-24">
+          <mxGeometry width="135" height="47" as="geometry">
+            <mxRectangle width="135" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-26" value="成功：提示添加成功，跳转到课程营销信息添加界面&lt;br&gt;失败：提示具体的失败信息，用户根据失败信息进行修改" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-24">
+          <mxGeometry x="135" width="555" height="47" as="geometry">
+            <mxRectangle width="555" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-2">
+          <mxGeometry y="349" width="690" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-28" value="数据描述" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-27">
+          <mxGeometry width="135" height="47" as="geometry">
+            <mxRectangle width="135" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-29" value="课程基本信息：课程id、课程名称、课程介绍、课程大分类、课程小分类、课程等级、课程图片、所属结构、课程创建时间、课程修改时间、课程状态" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-27">
+          <mxGeometry x="135" width="555" height="47" as="geometry">
+            <mxRectangle width="555" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-30" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-2">
+          <mxGeometry y="396" width="690" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-31" value="后置条件" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-30">
+          <mxGeometry width="135" height="43" as="geometry">
+            <mxRectangle width="135" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-32" value="向课程基本信息插入一条记录" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-30">
+          <mxGeometry x="135" width="555" height="43" as="geometry">
+            <mxRectangle width="555" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-33" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-2">
+          <mxGeometry y="439" width="690" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-34" value="补充说明" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-33">
+          <mxGeometry width="135" height="43" as="geometry">
+            <mxRectangle width="135" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2Uvm1sI6ZV-kNJGswrE-35" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="m2Uvm1sI6ZV-kNJGswrE-33">
+          <mxGeometry x="135" width="555" height="43" as="geometry">
+            <mxRectangle width="555" height="43" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
