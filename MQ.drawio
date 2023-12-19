@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T12:12:34.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="OHX2fTeFBmHOOVZqqZ-L" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T12:51:10.882Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XPokpOS3XO219rxZUW7e" version="22.1.11" type="github" pages="2">
   <diagram name="RocketMQ-消息发送的流程" id="c1UbJ3ql_vV-N2QDl9FB">
     <mxGraphModel dx="875" dy="435" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -47,6 +47,74 @@
         </mxCell>
         <mxCell id="C29KtVP_ODsfox4OyinJ-19" value="消费者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1200" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="f9jqTB9k6lVIeUYNtUtm" name="RocketMQ-生产和消费">
+    <mxGraphModel dx="1112" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hk49KHrQmpvN6-yeAgs_-1" target="hk49KHrQmpvN6-yeAgs_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="139" y="190" width="195" height="281" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-2" value="producer-a" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177" y="256" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-3" value="producer-b" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="176.5" y="353" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hk49KHrQmpvN6-yeAgs_-4" target="hk49KHrQmpvN6-yeAgs_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hk49KHrQmpvN6-yeAgs_-4" target="hk49KHrQmpvN6-yeAgs_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-4" value="topic-a" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="464" y="305" width="110" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-6" value="生产消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="359" y="303" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-7" value="&lt;b&gt;producer-group&lt;br&gt;生产者组&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="176.5" y="54" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-8" value="msg" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="261" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-9" value="&lt;b&gt;topic&lt;br&gt;主题&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="459" y="54" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="688" y="120" width="196" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-15" value="consumer-a" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="726" y="141" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-16" value="consumer-b" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="726" y="213" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="688" y="373" width="196" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-20" value="consumer-a" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="726" y="394" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-21" value="consumer-b" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="726" y="466" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-25" value="&lt;b&gt;consumer-group&lt;br&gt;消费者组&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="726" y="54" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-26" value="A组&lt;br&gt;一个组可以有多个消费者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="912" y="189" width="142" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hk49KHrQmpvN6-yeAgs_-27" value="B组&lt;br&gt;一个组可以有多个消费者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="912" y="443" width="142" height="29.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
