@@ -1,9 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T12:05:16.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.11" etag="soB8y858ctkIXud0cJRG" type="github">
-  <diagram name="第 1 页" id="c1UbJ3ql_vV-N2QDl9FB">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-12-19T12:12:34.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="OHX2fTeFBmHOOVZqqZ-L" version="22.1.11" type="github">
+  <diagram name="RocketMQ-消息发送的流程" id="c1UbJ3ql_vV-N2QDl9FB">
+    <mxGraphModel dx="875" dy="435" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C29KtVP_ODsfox4OyinJ-1" value="NameServer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="792" y="376" width="174" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C29KtVP_ODsfox4OyinJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="C29KtVP_ODsfox4OyinJ-2" target="C29KtVP_ODsfox4OyinJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C29KtVP_ODsfox4OyinJ-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="849" y="481" width="60" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="C29KtVP_ODsfox4OyinJ-3" value="Broker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="849" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C29KtVP_ODsfox4OyinJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C29KtVP_ODsfox4OyinJ-4" target="C29KtVP_ODsfox4OyinJ-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="549" y="406" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29KtVP_ODsfox4OyinJ-4" value="Producer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C29KtVP_ODsfox4OyinJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C29KtVP_ODsfox4OyinJ-4" target="C29KtVP_ODsfox4OyinJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C29KtVP_ODsfox4OyinJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C29KtVP_ODsfox4OyinJ-13" target="C29KtVP_ODsfox4OyinJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C29KtVP_ODsfox4OyinJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C29KtVP_ODsfox4OyinJ-13" target="C29KtVP_ODsfox4OyinJ-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="406" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29KtVP_ODsfox4OyinJ-13" value="Consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C29KtVP_ODsfox4OyinJ-18" value="生产者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="519" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C29KtVP_ODsfox4OyinJ-19" value="消费者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
