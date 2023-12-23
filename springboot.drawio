@@ -1,9 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2023-12-23T16:46:36.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.11" etag="7-2zC-CTk9AeaLYHKr6c" type="github">
-  <diagram name="第 1 页" id="inFhVgYkVOnNrnH-6zHA">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-12-23T16:52:56.933Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ltflaDCC7z26ALCJyzBd" version="22.1.11" type="github">
+  <diagram name="Springboot 整合 Swagger" id="inFhVgYkVOnNrnH-6zHA">
+    <mxGraphModel dx="1050" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="198" y="199" width="545" height="316" as="geometry" />
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-1">
+          <mxGeometry width="545" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-3" value="注解" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-2">
+          <mxGeometry width="185" height="35" as="geometry">
+            <mxRectangle width="185" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-4" value="标注位置" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-2">
+          <mxGeometry x="185" width="178" height="35" as="geometry">
+            <mxRectangle width="178" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-5" value="作用" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99CC;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-2">
+          <mxGeometry x="363" width="182" height="35" as="geometry">
+            <mxRectangle width="182" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-1">
+          <mxGeometry y="35" width="545" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-7" value="@Tag" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-6">
+          <mxGeometry width="185" height="46" as="geometry">
+            <mxRectangle width="185" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-8" value="controller 类" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-6">
+          <mxGeometry x="185" width="178" height="46" as="geometry">
+            <mxRectangle width="178" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-9" value="标识 controller 作用" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-6">
+          <mxGeometry x="363" width="182" height="46" as="geometry">
+            <mxRectangle width="182" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-1">
+          <mxGeometry y="81" width="545" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-11" value="@Parameter" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-10">
+          <mxGeometry width="185" height="47" as="geometry">
+            <mxRectangle width="185" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-12" value="参数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-10">
+          <mxGeometry x="185" width="178" height="47" as="geometry">
+            <mxRectangle width="178" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-13" value="标识参数作用" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-10">
+          <mxGeometry x="363" width="182" height="47" as="geometry">
+            <mxRectangle width="182" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-1">
+          <mxGeometry y="128" width="545" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-15" value="@Parameters" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-14">
+          <mxGeometry width="185" height="47" as="geometry">
+            <mxRectangle width="185" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-16" value="参数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-14">
+          <mxGeometry x="185" width="178" height="47" as="geometry">
+            <mxRectangle width="178" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-17" value="参数多重说明" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-14">
+          <mxGeometry x="363" width="182" height="47" as="geometry">
+            <mxRectangle width="182" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-18" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-1">
+          <mxGeometry y="175" width="545" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-19" value="@Schema" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-18">
+          <mxGeometry width="185" height="47" as="geometry">
+            <mxRectangle width="185" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-20" value="model 层的JavaBean" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-18">
+          <mxGeometry x="185" width="178" height="47" as="geometry">
+            <mxRectangle width="178" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-21" value="描述模型作用及每个属性" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-18">
+          <mxGeometry x="363" width="182" height="47" as="geometry">
+            <mxRectangle width="182" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-22" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-1">
+          <mxGeometry y="222" width="545" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-23" value="@Operation" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-22">
+          <mxGeometry width="185" height="47" as="geometry">
+            <mxRectangle width="185" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-24" value="方法" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-22">
+          <mxGeometry x="185" width="178" height="47" as="geometry">
+            <mxRectangle width="178" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-25" value="描述方法作用" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-22">
+          <mxGeometry x="363" width="182" height="47" as="geometry">
+            <mxRectangle width="182" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-26" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-1">
+          <mxGeometry y="269" width="545" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-27" value="@ApiResponse" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-26">
+          <mxGeometry width="185" height="47" as="geometry">
+            <mxRectangle width="185" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-28" value="方法" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-26">
+          <mxGeometry x="185" width="178" height="47" as="geometry">
+            <mxRectangle width="178" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axVpMz3rkVhzq8QPw5QN-29" value="描述响应状态码等" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-26">
+          <mxGeometry x="363" width="182" height="47" as="geometry">
+            <mxRectangle width="182" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
