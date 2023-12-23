@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-23T16:52:56.933Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ltflaDCC7z26ALCJyzBd" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-23T17:07:11.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aljXGJw8d1huJR4xEjdn" version="22.1.11" type="github" pages="2">
   <diagram name="Springboot 整合 Swagger" id="inFhVgYkVOnNrnH-6zHA">
     <mxGraphModel dx="1050" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -131,6 +131,215 @@
         <mxCell id="axVpMz3rkVhzq8QPw5QN-29" value="描述响应状态码等" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="axVpMz3rkVhzq8QPw5QN-26">
           <mxGeometry x="363" width="182" height="47" as="geometry">
             <mxRectangle width="182" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ouh3c6qk7hDh7IHZKm8W" name="整合 Swagger - 注解变化">
+    <mxGraphModel dx="1050" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z713YKejpkrFGuvezHhR-1" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="92" y="121" width="694" height="515.6999816894531" as="geometry" />
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="Z713YKejpkrFGuvezHhR-1">
+          <mxGeometry width="694" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-3" value="原注解" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="Z713YKejpkrFGuvezHhR-2">
+          <mxGeometry width="264" height="35" as="geometry">
+            <mxRectangle width="264" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-4" value="现注解" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="Z713YKejpkrFGuvezHhR-2">
+          <mxGeometry x="264" width="331" height="35" as="geometry">
+            <mxRectangle width="331" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-5" value="作用" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#FF99FF;align=center;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="Z713YKejpkrFGuvezHhR-2">
+          <mxGeometry x="595" width="99" height="35" as="geometry">
+            <mxRectangle width="99" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="Z713YKejpkrFGuvezHhR-1">
+          <mxGeometry y="35" width="694" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-7" value="@Api" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-6">
+          <mxGeometry width="264" height="46" as="geometry">
+            <mxRectangle width="264" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-8" value="@Tag" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-6">
+          <mxGeometry x="264" width="331" height="46" as="geometry">
+            <mxRectangle width="331" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-9" value="描述Controller" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-6">
+          <mxGeometry x="595" width="99" height="46" as="geometry">
+            <mxRectangle width="99" height="46" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="Z713YKejpkrFGuvezHhR-1">
+          <mxGeometry y="81" width="694" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-11" value="@ApiIgnore" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-10">
+          <mxGeometry width="264" height="59" as="geometry">
+            <mxRectangle width="264" height="59" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-12" value="@Parameter(hidden = true) &lt;br&gt;&amp;nbsp;@Operation(hidden = true) &lt;br&gt;@Hidden" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-10">
+          <mxGeometry x="264" width="331" height="59" as="geometry">
+            <mxRectangle width="331" height="59" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-13" value="描述忽略操作" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-10">
+          <mxGeometry x="595" width="99" height="59" as="geometry">
+            <mxRectangle width="99" height="59" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="Z713YKejpkrFGuvezHhR-1">
+          <mxGeometry y="140" width="694" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-15" value="@ApiImplicitParam" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-14">
+          <mxGeometry width="264" height="47" as="geometry">
+            <mxRectangle width="264" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-16" value="@Parameter" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-14">
+          <mxGeometry x="264" width="331" height="47" as="geometry">
+            <mxRectangle width="331" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-17" value="描述参数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-14">
+          <mxGeometry x="595" width="99" height="47" as="geometry">
+            <mxRectangle width="99" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-18" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="Z713YKejpkrFGuvezHhR-1">
+          <mxGeometry y="187" width="694" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-19" value="@ApiImplicitParams" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-18">
+          <mxGeometry width="264" height="47" as="geometry">
+            <mxRectangle width="264" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-20" value="@Parameters" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-18">
+          <mxGeometry x="264" width="331" height="47" as="geometry">
+            <mxRectangle width="331" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-21" value="描述参数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-18">
+          <mxGeometry x="595" width="99" height="47" as="geometry">
+            <mxRectangle width="99" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-22" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="Z713YKejpkrFGuvezHhR-1">
+          <mxGeometry y="234" width="694" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-23" value="@ApiModel" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-22">
+          <mxGeometry width="264" height="47" as="geometry">
+            <mxRectangle width="264" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-24" value="@Schema" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-22">
+          <mxGeometry x="264" width="331" height="47" as="geometry">
+            <mxRectangle width="331" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-25" value="描述对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-22">
+          <mxGeometry x="595" width="99" height="47" as="geometry">
+            <mxRectangle width="99" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="Z713YKejpkrFGuvezHhR-1">
+          <mxGeometry y="281" width="694" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-28" value="@ApiModelProperty(hidden = true)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-27">
+          <mxGeometry width="264" height="47" as="geometry">
+            <mxRectangle width="264" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-29" value="@Schema(accessMode = READ_ONLY)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-27">
+          <mxGeometry x="264" width="331" height="47" as="geometry">
+            <mxRectangle width="331" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-30" value="描述对象属性" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-27">
+          <mxGeometry x="595" width="99" height="47" as="geometry">
+            <mxRectangle width="99" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-31" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="Z713YKejpkrFGuvezHhR-1">
+          <mxGeometry y="328" width="694" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-32" value="@ApiModelProperty" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-31">
+          <mxGeometry width="264" height="47" as="geometry">
+            <mxRectangle width="264" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-33" value="@Schema" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-31">
+          <mxGeometry x="264" width="331" height="47" as="geometry">
+            <mxRectangle width="331" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-34" value="描述对象属性" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-31">
+          <mxGeometry x="595" width="99" height="47" as="geometry">
+            <mxRectangle width="99" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-35" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="Z713YKejpkrFGuvezHhR-1">
+          <mxGeometry y="375" width="694" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-36" value="@ApiOperation(value = &quot;foo&quot;, notes = &quot;bar&quot;)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-35">
+          <mxGeometry width="264" height="47" as="geometry">
+            <mxRectangle width="264" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-37" value="@Operation(summary = &quot;foo&quot;, description = &quot;bar&quot;)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-35">
+          <mxGeometry x="264" width="331" height="47" as="geometry">
+            <mxRectangle width="331" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-38" value="描述方法" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-35">
+          <mxGeometry x="595" width="99" height="47" as="geometry">
+            <mxRectangle width="99" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-39" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="Z713YKejpkrFGuvezHhR-1">
+          <mxGeometry y="422" width="694" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-40" value="@ApiParam" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-39">
+          <mxGeometry width="264" height="47" as="geometry">
+            <mxRectangle width="264" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-41" value="@Parameter" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-39">
+          <mxGeometry x="264" width="331" height="47" as="geometry">
+            <mxRectangle width="331" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-42" value="描述参数" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-39">
+          <mxGeometry x="595" width="99" height="47" as="geometry">
+            <mxRectangle width="99" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-43" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="Z713YKejpkrFGuvezHhR-1">
+          <mxGeometry y="469" width="694" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-44" value="@ApiResponse(code = 404, message = &quot;foo&quot;)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-43">
+          <mxGeometry width="264" height="47" as="geometry">
+            <mxRectangle width="264" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-45" value="@ApiResponse(responseCode = &quot;404&quot;, description = &quot;foo&quot;)" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-43">
+          <mxGeometry x="264" width="331" height="47" as="geometry">
+            <mxRectangle width="331" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z713YKejpkrFGuvezHhR-46" value="描述响应" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="Z713YKejpkrFGuvezHhR-43">
+          <mxGeometry x="595" width="99" height="47" as="geometry">
+            <mxRectangle width="99" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
