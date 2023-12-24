@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-23T17:07:11.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aljXGJw8d1huJR4xEjdn" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-24T08:49:15.048Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rGJ3JEjah8CRtGT3EUWI" version="22.1.11" type="github" pages="4">
   <diagram name="Springboot 整合 Swagger" id="inFhVgYkVOnNrnH-6zHA">
     <mxGraphModel dx="1050" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -342,6 +342,43 @@
             <mxRectangle width="99" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="faWX5ZIekzIkU_-Ec1wL" name="切换服务器">
+    <mxGraphModel dx="1050" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RDdpztUzKM3WR2VjarKt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RDdpztUzKM3WR2VjarKt-1" target="RDdpztUzKM3WR2VjarKt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RDdpztUzKM3WR2VjarKt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RDdpztUzKM3WR2VjarKt-1" target="RDdpztUzKM3WR2VjarKt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RDdpztUzKM3WR2VjarKt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RDdpztUzKM3WR2VjarKt-1" target="RDdpztUzKM3WR2VjarKt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RDdpztUzKM3WR2VjarKt-1" value="嵌入式Servlet容器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFB3;" vertex="1" parent="1">
+          <mxGeometry x="422" y="119" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RDdpztUzKM3WR2VjarKt-2" value="Tomcat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9999FF;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="203" y="244" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RDdpztUzKM3WR2VjarKt-3" value="Jetty" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9999FF;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="422" y="244" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RDdpztUzKM3WR2VjarKt-4" value="Undertow" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9999FF;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="641" y="244" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZLhnQy5VgUTLTGVgGsfd" name="WebMvcConfigurer 功能">
+    <mxGraphModel dx="668" dy="445" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
