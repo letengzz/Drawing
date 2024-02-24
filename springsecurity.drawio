@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-24T07:13:53.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="54Z_5JPe48nBvgs0qk2N" version="23.1.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-24T08:35:23.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="AfOhuhZYjYxrzkEzAx3w" version="23.1.5" type="github" pages="5">
   <diagram name="用户表" id="nIL0lwSE8mW6Ks5EThln">
     <mxGraphModel dx="1050" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -421,7 +421,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="用户角色关联表 的副本" id="xWEHi-aN2wi4HztYIHhH">
+  <diagram name="角色权限关联表" id="xWEHi-aN2wi4HztYIHhH">
     <mxGraphModel dx="1050" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="Pd9zDALr4Ydf_NQhnCpL-0" />
