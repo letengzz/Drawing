@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T15:48:29.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="GG51akah9ne7Vq2GDAmI" version="23.1.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-11T15:54:32.513Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="bGqDX5US0PwGyE1NZ96_" version="23.1.6" type="github" pages="8">
   <diagram name="RocketMQ-消息发送的流程" id="c1UbJ3ql_vV-N2QDl9FB">
     <mxGraphModel dx="804" dy="505" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -347,6 +347,41 @@
         </mxCell>
         <mxCell id="L16C6DlAvHd9iptSXdJ7-5" value="订阅消息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s8AKP1sLZ5YBdhGrPkhJ-1">
           <mxGeometry x="646" y="141" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="消息削峰" id="3v0XO4uF0259taKC5bzo">
+    <mxGraphModel dx="1050" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="-pmC0zsTj7ofzoC3T6IZ-0" />
+        <mxCell id="-pmC0zsTj7ofzoC3T6IZ-1" parent="-pmC0zsTj7ofzoC3T6IZ-0" />
+        <mxCell id="-pmC0zsTj7ofzoC3T6IZ-3" value="用户请求" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;flipH=1;fillColor=#FF66B3;" vertex="1" parent="-pmC0zsTj7ofzoC3T6IZ-1">
+          <mxGeometry x="323" y="206" width="139" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="-pmC0zsTj7ofzoC3T6IZ-4" value="消息队列" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;flipH=1;fillColor=#99CCFF;" vertex="1" parent="-pmC0zsTj7ofzoC3T6IZ-1">
+          <mxGeometry x="534" y="206" width="139" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="-pmC0zsTj7ofzoC3T6IZ-7" value="写入消息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-pmC0zsTj7ofzoC3T6IZ-1">
+          <mxGeometry x="469" y="262" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-pmC0zsTj7ofzoC3T6IZ-8" value="根据规则读取秒杀请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-pmC0zsTj7ofzoC3T6IZ-1">
+          <mxGeometry x="660" y="263" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-pmC0zsTj7ofzoC3T6IZ-2" value="秒杀业务处理系统" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;flipH=1;fillColor=#FF66B3;" vertex="1" parent="-pmC0zsTj7ofzoC3T6IZ-1">
+          <mxGeometry x="745" y="206" width="139" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="LImw9YZgjiZg6G8QqQ_1-0" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="-pmC0zsTj7ofzoC3T6IZ-1" target="-pmC0zsTj7ofzoC3T6IZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="454" y="240" as="sourcePoint" />
+            <mxPoint x="504" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LImw9YZgjiZg6G8QqQ_1-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="-pmC0zsTj7ofzoC3T6IZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="665" y="240" as="sourcePoint" />
+            <mxPoint x="745" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
