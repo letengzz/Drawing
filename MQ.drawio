@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T15:37:40.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="pQWv6HJ8rtvry3HVnIl5" version="23.1.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-03-11T15:44:26.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-Clnbf8I-ywiN_IkiNCF" version="23.1.6" type="github" pages="6">
   <diagram name="RocketMQ-消息发送的流程" id="c1UbJ3ql_vV-N2QDl9FB">
     <mxGraphModel dx="804" dy="505" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -248,12 +248,6 @@
         <mxCell id="LZPMIJ0r80goEzO-kjMQ-5" value="发送注册短信" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;flipH=1;fillColor=#99FFCC;" vertex="1" parent="LZPMIJ0r80goEzO-kjMQ-1">
           <mxGeometry x="808" y="253" width="106" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="LZPMIJ0r80goEzO-kjMQ-6" value="50ms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LZPMIJ0r80goEzO-kjMQ-1">
-          <mxGeometry x="820" y="203" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LZPMIJ0r80goEzO-kjMQ-7" value="50ms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LZPMIJ0r80goEzO-kjMQ-1">
-          <mxGeometry x="820" y="323" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="LZPMIJ0r80goEzO-kjMQ-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=106;entryDy=44;entryPerimeter=0;" edge="1" parent="LZPMIJ0r80goEzO-kjMQ-1" target="LZPMIJ0r80goEzO-kjMQ-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="700" y="242" as="sourcePoint" />
@@ -278,7 +272,7 @@
             <mxPoint x="172.9999999999999" y="264" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LZPMIJ0r80goEzO-kjMQ-12" value="响应100ms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LZPMIJ0r80goEzO-kjMQ-1">
+        <mxCell id="LZPMIJ0r80goEzO-kjMQ-12" value="响应55ms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LZPMIJ0r80goEzO-kjMQ-1">
           <mxGeometry x="198" y="270" width="82" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LZPMIJ0r80goEzO-kjMQ-13" value="5ms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LZPMIJ0r80goEzO-kjMQ-1">
@@ -295,6 +289,29 @@
         </mxCell>
         <mxCell id="Pve-ga38Lbgd_BX75ulM-2" value="50ms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LZPMIJ0r80goEzO-kjMQ-1">
           <mxGeometry x="392.25" y="289.5" width="50.5" height="27" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="应用解耦" id="vs0zFlWs8r8RR9pvJMs7">
+    <mxGraphModel dx="955" dy="475" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="e1cPwDZlUYe-oMkV8k_V-0" />
+        <mxCell id="e1cPwDZlUYe-oMkV8k_V-1" parent="e1cPwDZlUYe-oMkV8k_V-0" />
+        <mxCell id="e1cPwDZlUYe-oMkV8k_V-3" value="库存系统" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;flipH=1;fillColor=#9999FF;" vertex="1" parent="e1cPwDZlUYe-oMkV8k_V-1">
+          <mxGeometry x="572" y="206" width="139" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="e1cPwDZlUYe-oMkV8k_V-14" value="调用库存接口" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="e1cPwDZlUYe-oMkV8k_V-1">
+          <mxGeometry x="479" y="274" width="83" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="QM-QuZgUa4SwCtxrqVZ3-0" value="订单系统" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;flipH=1;fillColor=#9999FF;" vertex="1" parent="e1cPwDZlUYe-oMkV8k_V-1">
+          <mxGeometry x="340" y="206" width="139" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="QM-QuZgUa4SwCtxrqVZ3-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="e1cPwDZlUYe-oMkV8k_V-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="239.5" as="sourcePoint" />
+            <mxPoint x="571" y="240.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
