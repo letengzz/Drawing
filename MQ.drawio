@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T15:28:28.464Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-ZDR9blLYzuYRiXz5fN0" version="23.1.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-11T15:29:17.407Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="fJCrUSYLE1u3NcplxA8c" version="23.1.6" type="github" pages="3">
   <diagram name="RocketMQ-消息发送的流程" id="c1UbJ3ql_vV-N2QDl9FB">
     <mxGraphModel dx="804" dy="505" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -168,6 +168,9 @@
         </mxCell>
         <mxCell id="Lv-rcKi-luhycD_1Sr_c-16" value="响应150ms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="198" y="270" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lv-rcKi-luhycD_1Sr_c-17" value="50ms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="378.5" y="296" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
