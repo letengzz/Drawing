@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-13T05:58:09.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="qJ-Pbs989G4hij6RP5YK" version="24.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-13T05:58:38.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Uz1oMjlkZGuxqZnVfNiz" version="24.2.2" type="github" pages="2">
   <diagram id="xFNDtRZFh8RqnuoztKxU" name="Gateway">
     <mxGraphModel dx="656" dy="495" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -129,7 +129,7 @@
         </mxCell>
         <mxCell id="FUFxqXZrgqdT7hnDQ8rB-32" value="注册中心" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FUFxqXZrgqdT7hnDQ8rB-21">
           <mxGeometry x="0.125" y="-2" relative="1" as="geometry">
-            <mxPoint x="9" as="offset" />
+            <mxPoint x="9" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FUFxqXZrgqdT7hnDQ8rB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="FUFxqXZrgqdT7hnDQ8rB-4">
