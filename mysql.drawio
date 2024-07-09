@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T14:56:50.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="EdYJyo_A2OKKAFrhtPv0" version="24.6.4" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2024-07-09T13:45:39.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="7mWeJH8ZMP65k7X3T-wM" version="24.6.4" type="github" pages="23">
   <diagram name="逻辑运算符" id="ewOLM0McmfPBh60qDEbp">
     <mxGraphModel dx="743" dy="393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1881,6 +1881,29 @@
         </mxCell>
         <mxCell id="SYIHh6oBZ9dqk4Jk69aX-8" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;SELECT id,name,age,gender FROM user WHERE age &amp;lt; 20;&lt;br&gt;所生成的视图&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="306.00000000000006" y="449" width="557.53" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bD58UTKokj6O7CQYpLXy" name="第 23 页">
+    <mxGraphModel dx="1050" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lsvyTK2sbw8X3dr08KsF-1" value="CREATE VIEW v1 AS SELECT id,name FROM user where id &amp;lt;= 15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="202" y="134" width="371" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="lsvyTK2sbw8X3dr08KsF-2" value="CREATE VIEW v2 AS SELECT id,name FROM v1 where id &amp;gt;= 10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="202" y="217" width="371" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="lsvyTK2sbw8X3dr08KsF-3" value="WITH LOCAL CHECK OPTION;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="587" y="217" width="193" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="lsvyTK2sbw8X3dr08KsF-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="210" as="sourcePoint" />
+            <mxPoint x="387" y="173" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
