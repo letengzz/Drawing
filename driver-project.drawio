@@ -1,9 +1,77 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
-  <diagram name="第 1 页" id="UqeodJRDdZrla2zue1Hf">
-    <mxGraphModel>
+  <diagram id="QtXSAEHBvPVh2OIT97jP" name="第 1 页">
+    <mxGraphModel dx="1044" dy="527" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="151" width="152" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-2" value="web-customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="201" y="165" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-3" value="web-driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="201" y="213" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-4" value="web-mgr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="201" y="261" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-5" value="web" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="241" y="120" width="40" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=15;endSize=9.92;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="77" y="228" as="sourcePoint" />
+            <mxPoint x="160" y="227.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-7" value="入口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="83" y="195" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="227.5" as="sourcePoint" />
+            <mxPoint x="481" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-15" value="远程调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7ZU2pWVacJxth9z2ZUxg-8">
+          <mxGeometry x="-0.096" y="-3" relative="1" as="geometry">
+            <mxPoint x="-1" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="148" width="152" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-11" value="service-customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="156" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-12" value="service-dispatch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="195" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-13" value="service-driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="233" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-14" value="service-map" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="271" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="336" as="sourcePoint" />
+            <mxPoint x="410" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-17" value="远程调用接口定义" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="363" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-18" value="service-client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="380" width="88" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-19" value="service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="548" y="120" width="56" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZU2pWVacJxth9z2ZUxg-20" value="微服务模块&lt;div&gt;基础模块&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="105" width="78" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
